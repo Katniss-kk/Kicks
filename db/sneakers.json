@@ -5,10 +5,10 @@
     "model": "Air Force 1",
     "price": 110,
     "image": [
-      "../images/imageSneaker.jpg",
-      "../images/imageSneaker.jpg",
-      "../images/imageSneaker.jpg",
-      "../images/imageSneaker.jpg"
+      "/images/imageSneaker.jpg",
+      "/images/imageSneaker.jpg",
+      "/images/imageSneaker.jpg",
+      "/images/imageSneaker.jpg"
     ],
     "sizes": [7, 7.5, 8, 8.5, 9, 9.5, 10, 10.5, 11, 12],
     "colors": ["White", "Black", "Triple White"]
@@ -19,10 +19,10 @@
     "model": "Ultraboost 22",
     "price": 190,
     "image": [
-      "../images/imageSneaker.jpg",
-      "../images/imageSneaker.jpg",
-      "../images/imageSneaker.jpg",
-      "../images/imageSneaker.jpg"
+      "/images/imageSneaker.jpg",
+      "/images/imageSneaker.jpg",
+      "/images/imageSneaker.jpg",
+      "/images/imageSneaker.jpg"
     ],
     "sizes": [7, 8, 8.5, 9, 9.5, 10, 11, 12],
     "colors": ["Black", "Core Black", "Legend Ink"]
@@ -33,10 +33,10 @@
     "model": "Air Jordan 1 Retro High",
     "price": 180,
     "image": [
-      "../images/imageSneaker.jpg",
-      "../images/imageSneaker.jpg",
-      "../images/imageSneaker.jpg",
-      "../images/imageSneaker.jpg"
+      "/images/imageSneaker.jpg",
+      "/images/imageSneaker.jpg",
+      "/images/imageSneaker.jpg",
+      "/images/imageSneaker.jpg"
     ],
     "sizes": [7.5, 8, 8.5, 9, 9.5, 10, 11, 12, 13],
     "colors": ["Black/White", "University Blue", "Dark Mocha"]
@@ -47,10 +47,10 @@
     "model": "990v6",
     "price": 185,
     "image": [
-      "../images/imageSneaker.jpg",
-      "../images/imageSneaker.jpg",
-      "../images/imageSneaker.jpg",
-      "../images/imageSneaker.jpg"
+      "/images/imageSneaker.jpg",
+      "/images/imageSneaker.jpg",
+      "/images/imageSneaker.jpg",
+      "/images/imageSneaker.jpg"
     ],
     "sizes": [7, 7.5, 8, 8.5, 9, 9.5, 10, 10.5, 11, 12],
     "colors": ["Grey", "Navy", "Black"]
@@ -61,10 +61,10 @@
     "model": "RS-X",
     "price": 110,
     "image": [
-      "../images/imageSneaker.jpg",
-      "../images/imageSneaker.jpg",
-      "../images/imageSneaker.jpg",
-      "../images/imageSneaker.jpg"
+      "/images/imageSneaker.jpg",
+      "/images/imageSneaker.jpg",
+      "/images/imageSneaker.jpg",
+      "/images/imageSneaker.jpg"
     ],
     "sizes": [7, 8, 9, 10, 11, 12],
     "colors": ["Black/Red", "White/Blue", "Grey/Orange"]
@@ -75,10 +75,10 @@
     "model": "Chuck Taylor All Star High",
     "price": 65,
     "image": [
-      "../images/imageSneaker.jpg",
-      "../images/imageSneaker.jpg",
-      "../images/imageSneaker.jpg",
-      "../images/imageSneaker.jpg"
+      "/images/imageSneaker.jpg",
+      "/images/imageSneaker.jpg",
+      "/images/imageSneaker.jpg",
+      "/images/imageSneaker.jpg"
     ],
     "sizes": [7, 7.5, 8, 8.5, 9, 9.5, 10, 11],
     "colors": ["Black", "White", "Red"]
@@ -89,10 +89,10 @@
     "model": "Dunk Low",
     "price": 120,
     "image": [
-      "../images/imageSneaker.jpg",
-      "../images/imageSneaker.jpg",
-      "../images/imageSneaker.jpg",
-      "../images/imageSneaker.jpg"
+      "/images/imageSneaker.jpg",
+      "/images/imageSneaker.jpg",
+      "/images/imageSneaker.jpg",
+      "/images/imageSneaker.jpg"
     ],
     "sizes": [7, 8, 8.5, 9, 9.5, 10, 11, 12],
     "colors": ["Black/White", "University Red", "Sail"]
@@ -103,10 +103,10 @@
     "model": "Superstar",
     "price": 100,
     "image": [
-      "../images/imageSneaker.jpg",
-      "../images/imageSneaker.jpg",
-      "../images/imageSneaker.jpg",
-      "../images/imageSneaker.jpg"
+      "/images/imageSneaker.jpg",
+      "/images/imageSneaker.jpg",
+      "/images/imageSneaker.jpg",
+      "/images/imageSneaker.jpg"
     ],
     "sizes": [7, 7.5, 8, 8.5, 9, 9.5, 10, 11, 12],
     "colors": ["White/Black", "Core Black", "Cloud White"]
@@ -117,10 +117,10 @@
     "model": "Gel-Kayano 14",
     "price": 160,
     "image": [
-      "../images/imageSneaker.jpg",
-      "../images/imageSneaker.jpg",
-      "../images/imageSneaker.jpg",
-      "../images/imageSneaker.jpg"
+      "/images/imageSneaker.jpg",
+      "/images/imageSneaker.jpg",
+      "/images/imageSneaker.jpg",
+      "/images/imageSneaker.jpg"
     ],
     "sizes": [7.5, 8, 8.5, 9, 9.5, 10, 10.5, 11, 12],
     "colors": ["Silver", "Black", "White"]
@@ -131,10 +131,10 @@
     "model": "Classic Leather",
     "price": 85,
     "image": [
-      "../images/imageSneaker.jpg",
-      "../images/imageSneaker.jpg",
-      "../images/imageSneaker.jpg",
-      "../images/imageSneaker.jpg"
+      "/images/imageSneaker.jpg",
+      "/images/imageSneaker.jpg",
+      "/images/imageSneaker.jpg",
+      "/images/imageSneaker.jpg"
     ],
     "sizes": [7, 8, 9, 10, 11, 12],
     "colors": ["White", "Black", "Navy"]
@@ -145,10 +145,10 @@
     "model": "Old Skool",
     "price": 75,
     "image": [
-      "../images/imageSneaker.jpg",
-      "../images/imageSneaker.jpg",
-      "../images/imageSneaker.jpg",
-      "../images/imageSneaker.jpg"
+      "/images/imageSneaker.jpg",
+      "/images/imageSneaker.jpg",
+      "/images/imageSneaker.jpg",
+      "/images/imageSneaker.jpg"
     ],
     "sizes": [7, 7.5, 8, 8.5, 9, 9.5, 10, 11],
     "colors": ["Black/White", "Checkerboard", "True White"]
@@ -159,10 +159,10 @@
     "model": "Air Max 270",
     "price": 160,
     "image": [
-      "../images/imageSneaker.jpg",
-      "../images/imageSneaker.jpg",
-      "../images/imageSneaker.jpg",
-      "../images/imageSneaker.jpg"
+      "/images/imageSneaker.jpg",
+      "/images/imageSneaker.jpg",
+      "/images/imageSneaker.jpg",
+      "/images/imageSneaker.jpg"
     ],
     "sizes": [7, 8, 8.5, 9, 9.5, 10, 11, 12],
     "colors": ["Black", "White", "Hot Punch"]
@@ -173,10 +173,10 @@
     "model": "NMD_R1",
     "price": 150,
     "image": [
-      "../images/imageSneaker.jpg",
-      "../images/imageSneaker.jpg",
-      "../images/imageSneaker.jpg",
-      "../images/imageSneaker.jpg"
+      "/images/imageSneaker.jpg",
+      "/images/imageSneaker.jpg",
+      "/images/imageSneaker.jpg",
+      "/images/imageSneaker.jpg"
     ],
     "sizes": [7.5, 8, 8.5, 9, 9.5, 10, 11, 12],
     "colors": ["Core Black", "White", "Grey"]
@@ -187,10 +187,10 @@
     "model": "Jazz Original",
     "price": 80,
     "image": [
-      "../images/imageSneaker.jpg",
-      "../images/imageSneaker.jpg",
-      "../images/imageSneaker.jpg",
-      "../images/imageSneaker.jpg"
+      "/images/imageSneaker.jpg",
+      "/images/imageSneaker.jpg",
+      "/images/imageSneaker.jpg",
+      "/images/imageSneaker.jpg"
     ],
     "sizes": [7, 8, 9, 10, 11],
     "colors": ["Shadow Original", "Black", "White"]
@@ -201,10 +201,10 @@
     "model": "Blazer Mid '77",
     "price": 105,
     "image": [
-      "../images/imageSneaker.jpg",
-      "../images/imageSneaker.jpg",
-      "../images/imageSneaker.jpg",
-      "../images/imageSneaker.jpg"
+      "/images/imageSneaker.jpg",
+      "/images/imageSneaker.jpg",
+      "/images/imageSneaker.jpg",
+      "/images/imageSneaker.jpg"
     ],
     "sizes": [7, 8, 8.5, 9, 9.5, 10, 11, 12],
     "colors": ["White", "Black", "Sail"]
@@ -215,10 +215,10 @@
     "model": "Air Jordan 4 Retro",
     "price": 210,
     "image": [
-      "../images/imageSneaker.jpg",
-      "../images/imageSneaker.jpg",
-      "../images/imageSneaker.jpg",
-      "../images/imageSneaker.jpg"
+      "/images/imageSneaker.jpg",
+      "/images/imageSneaker.jpg",
+      "/images/imageSneaker.jpg",
+      "/images/imageSneaker.jpg"
     ],
     "sizes": [7.5, 8, 8.5, 9, 9.5, 10, 11, 12, 13],
     "colors": ["Fire Red", "Military Black", "Black Canvas"]
@@ -229,10 +229,10 @@
     "model": "550",
     "price": 110,
     "image": [
-      "../images/imageSneaker.jpg",
-      "../images/imageSneaker.jpg",
-      "../images/imageSneaker.jpg",
-      "../images/imageSneaker.jpg"
+      "/images/imageSneaker.jpg",
+      "/images/imageSneaker.jpg",
+      "/images/imageSneaker.jpg",
+      "/images/imageSneaker.jpg"
     ],
     "sizes": [7, 8, 8.5, 9, 9.5, 10, 11, 12],
     "colors": ["White/Green", "White/Grey", "Black/White"]
@@ -243,10 +243,10 @@
     "model": "Forum Low",
     "price": 120,
     "image": [
-      "../images/imageSneaker.jpg",
-      "../images/imageSneaker.jpg",
-      "../images/imageSneaker.jpg",
-      "../images/imageSneaker.jpg"
+      "/images/imageSneaker.jpg",
+      "/images/imageSneaker.jpg",
+      "/images/imageSneaker.jpg",
+      "/images/imageSneaker.jpg"
     ],
     "sizes": [7, 7.5, 8, 8.5, 9, 9.5, 10, 11, 12],
     "colors": ["Cloud White", "Core Black", "Grey"]
@@ -257,10 +257,10 @@
     "model": "React Infinity Run Flyknit",
     "price": 160,
     "image": [
-      "../images/imageSneaker.jpg",
-      "../images/imageSneaker.jpg",
-      "../images/imageSneaker.jpg",
-      "../images/imageSneaker.jpg"
+      "/images/imageSneaker.jpg",
+      "/images/imageSneaker.jpg",
+      "/images/imageSneaker.jpg",
+      "/images/imageSneaker.jpg"
     ],
     "sizes": [7.5, 8, 8.5, 9, 9.5, 10, 11, 12],
     "colors": ["Black", "White", "University Red"]
@@ -271,10 +271,10 @@
     "model": "Cali",
     "price": 90,
     "image": [
-      "../images/imageSneaker.jpg",
-      "../images/imageSneaker.jpg",
-      "../images/imageSneaker.jpg",
-      "../images/imageSneaker.jpg"
+      "/images/imageSneaker.jpg",
+      "/images/imageSneaker.jpg",
+      "/images/imageSneaker.jpg",
+      "/images/imageSneaker.jpg"
     ],
     "sizes": [7, 8, 9, 10, 11],
     "colors": ["White", "Pink", "Black"]
