@@ -1,0 +1,26 @@
+.content {
+  margin-block-start: 24px;
+  padding-inline: 16px;
+  padding-block-end: 16px;
+}
+
+.textContainer {
+  display: grid;
+  gap: 29px;
+  grid-auto-flow: column;
+  margin-block-end: 24px;
+}
+
+.title {
+  font-family: var(--font-text);
+  font-weight: var(--font-weightSemiBold);
+  font-size: 24px;
+  color: var(--color-secondText);
+}
+
+.cardsContainer {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: auto;
+  gap: 16px;
+}

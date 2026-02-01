@@ -1,0 +1,88 @@
+.adBaner {
+  margin-block-start: 24px;
+  padding-inline: 16px;
+}
+
+.textTitle {
+  font-family: var(--font-text);
+  font-weight: var(--font-weightBold);
+  font-size: 59px;
+  color: var(--color-secondText);
+  text-transform: uppercase;
+  text-align: center;
+  inline-size: 100%;
+  margin-block-end: 24px;
+}
+
+.textTitleSpan {
+  color: var(--color-bgLink);
+}
+
+.container {
+  position: relative;
+  block-size: 100vh;
+  max-block-size: 382px;
+  min-height: 100%;
+  inline-size: 100%;
+}
+
+.imgBaner {
+  position: absolute;
+  z-index: -1;
+  inline-size: 100%;
+  block-size: 100%;
+}
+
+.contentContainer {
+  position: relative;
+  block-size: 100%;
+  padding-inline: 16px;
+  display: grid;
+  justify-items: start;
+}
+
+.containerMain {
+  block-size: max-content;
+  align-self: flex-end;
+  display: grid;
+  grid-auto-flow: column;
+  padding-block-end: 16px;
+}
+
+.span {
+  padding: 8px;
+  position: absolute;
+  top: 90px;
+  left: -62px;
+  transform: rotate(-90deg);
+  font-family: var(--font-text);
+  font-weight: var(--font-weightSemiBold);
+  font-size: 12px;
+  color: var(--color-text);
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  background-color: var(--color-secondText);
+}
+
+.mainTextContainer {
+  display: grid;
+  align-items: flex-end;
+}
+
+.secondImageContainer {
+  display: grid;
+}
+
+.brandName {
+  font-family: var(--font-text);
+  font-weight: var(--font-weightSemiBold);
+  font-size: 24px;
+  color: var(--color-mainText);
+}
+
+.aboutBrand {
+  font-family: var(--font-text);
+  font-weight: var(--font-weightSemiBold);
+  font-size: 14px;
+  color: var(--color-text);
+}

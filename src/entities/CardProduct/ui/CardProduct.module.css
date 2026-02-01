@@ -1,0 +1,48 @@
+.card {
+}
+
+.imgContainer {
+  position: relative;
+  padding: 8px;
+  background-color: var(--color-detailedWidgets);
+  border-radius: 16px;
+  margin-block-end: 16px;
+}
+
+.span {
+  position: absolute;
+  border-top-left-radius: 12px;
+  border-bottom-right-radius: 13px;
+  padding-block: 4px;
+  padding-inline: 8px;
+  background-color: var(--color-bgLink);
+}
+
+.image {
+  inline-size: 100%;
+  block-size: 100%;
+  min-block-size: 155px;
+  object-fit: contain;
+}
+
+.textContainer {
+  display: grid;
+  gap: 8px;
+}
+
+.title {
+  font-family: var(--font-text);
+  font-weight: var(--font-weightSemiBold);
+  font-size: 16px;
+  color: var(--color-secondText);
+  inline-size: 100%;
+  min-block-size: 40px;
+}
+
+.button {
+  background-color: var(--color-secondText);
+}
+
+.buttonPrice {
+  color: var(--color-basketCounter);
+}

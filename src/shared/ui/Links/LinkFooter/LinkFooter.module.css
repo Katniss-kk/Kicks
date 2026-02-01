@@ -1,0 +1,6 @@
+.link {
+  font-family: var(--font-text);
+  font-weight: var(--font-weightSemiBold);
+  font-size: 16px;
+  color: var(--color-text);
+}

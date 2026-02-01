@@ -1,0 +1,16 @@
+:root {
+  /* fonts */
+  --font-text: sans-serif;
+
+  --font-weightSemiBold: 600;
+  --font-weightMedium: 500;
+  --font-weightBold: 700;
+
+  /* colors */
+  --color-basketCounter: #ffa52f;
+  --color-detailedWidgets: #fafafa;
+  --color-bgLink: #4a69e2;
+  --color-mainText: #ffffff;
+  --color-text: #E7E7E3;
+  --color-secondText: #232321;
+}

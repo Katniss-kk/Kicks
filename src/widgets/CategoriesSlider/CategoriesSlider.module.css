@@ -1,0 +1,43 @@
+.sliderContainer {
+  display: grid;
+  gap: 24px;
+  padding-inline: 16px;
+  padding-block-start: 24px;
+  padding-block-end: 48px;
+  background-color: var(--color-secondText);
+}
+
+.title {
+  font-family: var(--font-text);
+  font-weight: var(--font-weightSemiBold);
+  font-size: 24px;
+  color: var(--color-mainText);
+}
+
+.container {
+  display: grid;
+  grid-auto-flow: column;
+  justify-content: space-between;
+}
+
+.containerButton {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  grid-auto-flow: column;
+  gap: 8px;
+  max-inline-size: 72px;
+}
+
+.buttonPrev {
+  background-color: var(--color-mainText);
+  transform: rotate(180deg);
+}
+
+.buttonNext {
+  background-color: var(--color-mainText);
+}
+
+.customSwiper {
+  inline-size: 100%;
+}

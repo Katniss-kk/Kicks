@@ -1,0 +1,28 @@
+.categotiesContainer {
+  position: relative;
+  inline-size: 100%;
+  block-size: 348px;
+}
+
+.image {
+  inline-size: 100%;
+  block-size: 100%;
+  object-fit: cover;
+}
+
+.title {
+  position: absolute;
+  bottom: 16px;
+  left: 16px;
+  font-family: var(--font-text);
+  font-weight: var(--font-weightSemiBold);
+  font-size: 24px;
+  color: var(--color-secondText);
+  inline-size: min-content;
+}
+
+.link {
+    position: absolute;
+    bottom: 16px;
+    right: 16px;
+}

@@ -1,0 +1,24 @@
+.header {
+  inline-size: 100%;
+  min-block-size: 60px;
+}
+
+.headerContainer {
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  padding-inline: 18px;
+  padding-block: 20px;
+  border-radius: 12px;
+  margin-inline: 16px;
+  background-color: var(--color-detailedWidgets);
+  inline-size: 80%;
+  z-index: 3;
+  margin-block-start: 15px;
+}
+
+.userContainer {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+}

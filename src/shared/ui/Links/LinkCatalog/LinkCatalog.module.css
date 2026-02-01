@@ -1,0 +1,13 @@
+.link {
+  font-family: var(--font-text);
+  font-weight: var(--font-weightMedium);
+  font-size: 14px;
+  color: var(--color-mainText);
+  text-transform: uppercase;
+  border-radius: 8px;
+  padding-block: 8px;
+  padding-inline: 16px;
+  background-color: var(--color-bgLink);
+  inline-size: max-content;
+  block-size: max-content;
+}

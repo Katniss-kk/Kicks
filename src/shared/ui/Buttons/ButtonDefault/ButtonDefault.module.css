@@ -1,0 +1,11 @@
+.button {
+  border: none;
+  font-family: var(--font-text);
+  font-weight: var(--font-weightSemiBold);
+  color: var(--color-mainText);
+  font-size: 12px;
+  text-transform: uppercase;
+  border-radius: 8px;
+  padding-block: 15px;
+  inline-size: 100%;
+}
