@@ -1,26 +1,26 @@
 [
   {
-    "img": "../image/Categories/RunningShoes.jpg",
+    "img": "../images/Categories/RunningShoes.jpg",
     "title": "Running Shoes",
     "link": "/category/running-shoes"
   },
   {
-    "img": "../image/Categories/CasualSneakers.jpg",
+    "img": "../images/Categories/CasualSneakers.jpg",
     "title": "Casual Sneakers",
     "link": "/category/casual-sneakers"
   },
   {
-    "img": "../image/Categories/Boots.jpg",
+    "img": "../images/Categories/Boots.jpg",
     "title": "Boots",
     "link": "/category/boots"
   },
   {
-    "img": "../image/Categories/Sandals.jpg",
+    "img": "../images/Categories/Sandals.jpg",
     "title": "Sandals",
     "link": "/category/sandals"
   },
   {
-    "img": "../image/Categories/SportsShoes.jpg",
+    "img": "../images/Categories/SportsShoes.jpg",
     "title": "Sports Shoes",
     "link": "/category/sports-shoes"
   }
