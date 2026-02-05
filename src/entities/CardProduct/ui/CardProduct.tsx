@@ -1,5 +1,5 @@
 import style from './CardProduct.module.css';
-import { ICardProduct } from '../libs/types';
+import type { ICardProduct } from '../libs/types';
 import ButtonDefault from '@shared/ui/Buttons/ButtonDefault';
 import { CardProductConstants } from '../libs/CardProductConstants';
 import useCardProduct from '../model/useCardProduct';

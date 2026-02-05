@@ -1,0 +1,10 @@
+.modal {
+  background-color: var(--color-detailedWidgets);
+  position: absolute;
+  top: 18px;
+  left: -18px;
+  z-index: 4;
+  inline-size: max-content;
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+}

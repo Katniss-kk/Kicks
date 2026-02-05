@@ -1,5 +1,7 @@
+import type React from 'react';
+
 export interface IButtonDefault {
   handleClick: () => void;
   css?: string;
-  children: React.ReactElement;
+  children: React.ReactElement | string;
 }

@@ -1,0 +1,15 @@
+.button {
+  font-family: var(--font-text);
+  font-weight: var(--font-weightSemiBold);
+  font-size: 14px;
+  color: var(--color-secondText);
+  padding-block: 8px;
+  padding-inline: 16px;
+  border-radius: 8px;
+  display: grid;
+  grid-auto-flow: column;
+  justify-content: space-between;
+  align-items: center;
+  inline-size: 100%;
+  border: none;
+}

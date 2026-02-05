@@ -1,6 +1,6 @@
 import LinkCategory from '../Links/LinkCategory';
 import style from './CardCategories.module.css';
-import { ICardCategories } from './libs/types';
+import type { ICardCategories } from './libs/types';
 
 export default function CardCategories({ category }: ICardCategories) {
   return (

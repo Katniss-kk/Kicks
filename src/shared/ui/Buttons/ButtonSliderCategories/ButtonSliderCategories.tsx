@@ -1,6 +1,6 @@
 import clsx from 'clsx';
 import style from './ButtonSliderCategories.module.css';
-import { IButtonSliderCategories } from './libs/types';
+import type { IButtonSliderCategories } from './libs/types';
 import Arrow from '@assets/icons/Arrow';
 
 export default function ButtonSliderCategories({ handleClick, css, fill }: IButtonSliderCategories) {

@@ -1,4 +1,4 @@
 .logo {
-  max-inline-size: 80px;
-  max-block-size: 20px;
+  min-inline-size: 80px;
+  min-block-size: 20px;
 }

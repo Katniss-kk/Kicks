@@ -1,0 +1,60 @@
+.modal {
+  position: fixed;
+  top: 0px;
+  inline-size: 100%;
+  block-size: 100vh;
+  z-index: 5;
+  background-color: var(--bg-modal);
+  display: grid;
+  grid-template-rows: max-content 83% max-content;
+  overflow: hidden;
+}
+
+.modalContent {
+  padding: 16px;
+  display: grid;
+  grid-auto-flow: column;
+  justify-content: space-between;
+}
+
+.title {
+  font-family: var(--font-text);
+  font-weight: var(--font-weightSemiBold);
+  font-size: 20px;
+  color: var(--color-secondText);
+}
+
+.modalChildren {
+  block-size: 100%;
+  background-color: var(--color-text);
+  padding: 16px;
+}
+
+.buttonsContainer {
+  display: grid;
+  grid-auto-flow: column;
+  gap: 16px;
+  padding-inline: 16px;
+}
+
+.resetButton {
+  text-align: center;
+  border: 1px solid var(--color-secondText);
+  background-color: transparent;
+  color: var(--color-secondText);
+  text-transform: uppercase;
+}
+
+.applyButton {
+  text-align: center;
+  border: none;
+  background-color: var(--color-secondText);
+  color: var(--color-mainText);
+  text-transform: uppercase;
+}
+
+.buttonClose {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}

@@ -1,0 +1,92 @@
+.filterContainer {
+  display: grid;
+  grid-auto-flow: column;
+  justify-content: space-between;
+}
+
+.titleFilter {
+  font-family: var(--font-text);
+  font-weight: var(--font-weightSemiBold);
+  font-size: 16px;
+  color: var(--color-secondText);
+  text-transform: uppercase;
+}
+
+.buttonFilter {
+  transform: rotate(270deg);
+  border: none;
+  background-color: transparent;
+  min-inline-size: 24px;
+  min-block-size: 24px;
+  cursor: pointer;
+}
+
+.buttonFilterActive {
+  transform: rotate(90deg);
+}
+
+.containerButtons {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 16px;
+  padding-block: 16px;
+  padding-inline-end: 42px;
+}
+
+.buttonSize {
+  background-color: var(--color-mainText);
+  color: var(--color-secondText);
+  border: none;
+  block-size: 48px;
+  min-inline-size: 50px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.buttonSizeActive {
+  background: var(--color-secondText);
+  color: var(--color-mainText);
+}
+
+.buttonColorActive {
+  opacity: 0.5;
+}
+
+.Black {
+  background-color: black;
+}
+.White {
+  background-color: white;
+}
+.Red {
+  background-color: red;
+}
+.Grey {
+  background-color: gray;
+}
+.Blue {
+  background-color: blue;
+}
+.Navy {
+  background-color: navy;
+}
+.Green {
+  background-color: green;
+}
+.Brown {
+  background-color: brown;
+}
+.Silver {
+  background-color: silver;
+}
+.Orange {
+  background-color: orange;
+}
+.Yellow {
+  background-color: yellow;
+}
+
+.sortContainer {
+  display: grid;
+  gap: 8px;
+}

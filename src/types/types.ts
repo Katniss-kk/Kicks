@@ -6,4 +6,5 @@ export interface IProduct {
   image: string[];
   sizes: number[];
   colors: string[];
+  date: string;
 }
