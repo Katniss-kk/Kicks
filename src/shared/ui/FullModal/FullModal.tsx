@@ -11,6 +11,7 @@ export default function FullModal({
   isOpen,
   onClose,
   handleClickReset,
+  handleClickApply,
 }: IFullModal) {
   if (isOpen) {
     return (
@@ -26,7 +27,7 @@ export default function FullModal({
           <ButtonDefault handleClick={handleClickReset} css={style.resetButton}>
             {FullModalConstants[0]}
           </ButtonDefault>
-          <ButtonDefault handleClick={onClose} css={style.applyButton}>
+          <ButtonDefault handleClick={handleClickApply} css={style.applyButton}>
             {FullModalConstants[1]}
           </ButtonDefault>
         </div>

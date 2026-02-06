@@ -115,7 +115,7 @@
       "images/imageSneaker.jpg",
       "images/imageSneaker.jpg"
     ],
-    "sizes": [7, 7.5, 8, 8.5, 9, 9.5, 10, 11, 12],
+    "sizes": [7.5, 8, 8.5, 9, 9.5, 10, 11, 12],
     "colors": ["White", "Black", "Grey"],
     "date": "2026-02-22"
   },
@@ -130,7 +130,7 @@
       "images/imageSneaker.jpg",
       "images/imageSneaker.jpg"
     ],
-    "sizes": [7.5, 8, 8.5, 9, 9.5, 10, 10.5, 11, 12],
+    "sizes": [8, 8.5, 9, 9.5, 10, 10.5, 11, 12],
     "colors": ["Silver", "Black", "White"],
     "date": "2026-02-25"
   },

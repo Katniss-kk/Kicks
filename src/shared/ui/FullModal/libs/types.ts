@@ -6,4 +6,5 @@ export interface IFullModal {
   isOpen: boolean;
   onClose: () => void;
   handleClickReset: () => void;
+  handleClickApply: () => void;
 }

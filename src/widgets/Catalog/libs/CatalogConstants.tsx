@@ -12,4 +12,11 @@ const FiltersButtons = [
   },
 ];
 
-export default FiltersButtons;
+const CatalogInfo = {
+  title: 'Life Style Shoes',
+  products: 'items.',
+  nullFilterProducts: 'Please change filters settings',
+  error: 'Ops... server error',
+};
+
+export default { FiltersButtons, CatalogInfo };

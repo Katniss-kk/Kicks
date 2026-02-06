@@ -1,4 +1,4 @@
-import FiltersButtons from '@/widgets/Catalog/libs/CatalogConstants';
+import CatalogConstants from '@/widgets/Catalog/libs/CatalogConstants';
 import style from './Filters.module.css';
 import { IFilters } from './libs/types';
 import FiltersConstants from './libs/FiltersConstants';
@@ -6,48 +6,30 @@ import ButtonSvg from '@/shared/ui/Buttons/ButtonSvg';
 import Arrow from '@/assets/icons/Arrow';
 import ButtonFilter from '@/shared/ui/Buttons/ButtonFilter';
 import clsx from 'clsx';
-import { useState } from 'react';
 import ButtonFilterCheckBox from '@/shared/ui/Buttons/ButtonFilterCheckBox';
-import { useDispatch, useSelector } from '@/services/store';
-import { setColors, setSizes, setSort } from '@/services/slices/FiltersSlice/FiltersSlice';
+import useFilters from './libs/useFilters';
 
 export default function Filters({ content }: IFilters) {
-  const { sizes, colors, sort } = useSelector((state) => state.Filters);
-  const [activeColors, setActiveColors] = useState<boolean>(true);
-  const [activeSizes, setActiveSizes] = useState<boolean>(true);
-  const [activeSort, setActiveSort] = useState<boolean>(true);
+  const {
+    activeColors,
+    handleClickColorsZone,
+    handleClickAddColor,
+    activeSizes,
+    handleClickAddSize,
+    handleClickSizesZone,
+    activeSort,
+    handleClickAddSort,
+    handleClickSortZone,
+    sizes,
+    colors,
+    sort,
+  } = useFilters();
 
-  const dispatch = useDispatch();
-
-  const handleClickSortZone = () => {
-    setActiveSort(!activeSort);
-  };
-
-  const handleClickSizesZone = () => {
-    setActiveSizes(!activeSizes);
-  };
-
-  const handleClickColorsZone = () => {
-    setActiveColors(!activeColors);
-  };
-
-  const handleClickAddSize = (name: number) => {
-    dispatch(setSizes(name));
-  };
-
-  const handleClickAddColor = (color: string) => {
-    dispatch(setColors(color));
-  };
-
-  const handleClickAddSort = (sort: string) => {
-    dispatch(setSort(sort));
-  };
-
-  if (content === FiltersButtons[0].name) {
+  if (content === CatalogConstants.FiltersButtons[0].name) {
     return (
       <div className={style.modalContent}>
         <div>
-          <div className={style.filterContainer}>
+          <div className={style.filterContainer} onClick={() => handleClickSizesZone()}>
             <h4 className={style.titleFilter}>{FiltersConstants.FiltersConstant[0]}</h4>
             <ButtonSvg
               handleClick={handleClickSizesZone}
@@ -75,7 +57,7 @@ export default function Filters({ content }: IFilters) {
           </div>
         </div>
         <div>
-          <div className={style.filterContainer}>
+          <div className={style.filterContainer} onClick={() => handleClickColorsZone()}>
             <h4 className={style.titleFilter}>{FiltersConstants.FiltersConstant[1]}</h4>
             <ButtonSvg
               handleClick={handleClickColorsZone}
@@ -108,11 +90,11 @@ export default function Filters({ content }: IFilters) {
       </div>
     );
   }
-  if (content === FiltersButtons[1].name) {
+  if (content === CatalogConstants.FiltersButtons[1].name) {
     return (
       <div className={style.modalContent}>
-        <div className={style.filterContainer}>
-          <h4 className={style.titleFilter}>{FiltersButtons[1].name}</h4>
+        <div className={style.filterContainer} onClick={() => handleClickSortZone()}>
+          <h4 className={style.titleFilter}>{CatalogConstants.FiltersButtons[1].name}</h4>
           <ButtonSvg
             handleClick={handleClickSortZone}
             css={clsx(style.buttonFilter, activeSort ? style.buttonFilterActive : '')}
