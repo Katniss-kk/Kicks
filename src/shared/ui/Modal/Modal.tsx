@@ -1,4 +1,4 @@
-import { IModal } from './libs/types';
+import type { IModal } from './libs/types';
 import style from './Modal.module.css';
 
 export default function Modal({ children, isOpen }: IModal) {

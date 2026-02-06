@@ -9,6 +9,7 @@ import { setData } from '@/services/slices/ProductsDataSlice/ProductsDataSlice';
 
 export default function App() {
   const dispatch = useDispatch();
+  
   useEffect(() => {
     dispatch(setData());
   }, []);

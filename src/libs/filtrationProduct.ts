@@ -1,4 +1,4 @@
-import { IProduct } from '@/types/types';
+import type { IProduct } from '@/types/types';
 
 // Обновленный интерфейс
 interface IUseFiltration {
@@ -35,6 +35,11 @@ export default function filtrationProduct({
     });
   }
 
+  if (sort === 'sale') {
+    result = result.filter((product) => product.sale > 0);
+    result.sort((a, b) => b.sale - a.sale);
+  }
+
   // Сортировка (если sort не null)
   if (sort && sort !== 'sale') {
     result = sortProducts(result, sort);
@@ -45,7 +50,7 @@ export default function filtrationProduct({
 
 // Обновленная функция сортировки
 function sortProducts(products: IProduct[], sortOption: string): IProduct[] {
-  const sortedProducts = [...products];
+  const sortedProducts: IProduct[] = [...products];
 
   switch (sortOption) {
     case 'new':

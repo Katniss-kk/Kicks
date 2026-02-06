@@ -1,6 +1,6 @@
 import CatalogConstants from '@/widgets/Catalog/libs/CatalogConstants';
 import style from './Filters.module.css';
-import { IFilters } from './libs/types';
+import type { IFilters } from './libs/types';
 import FiltersConstants from './libs/FiltersConstants';
 import ButtonSvg from '@/shared/ui/Buttons/ButtonSvg';
 import Arrow from '@/assets/icons/Arrow';

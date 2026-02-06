@@ -1,4 +1,4 @@
-import { IProduct } from '@/types/types';
+import type { IProduct } from '@/types/types';
 import { createSlice } from '@reduxjs/toolkit';
 
 import Products from '../../../../public/db/sneakers.json';

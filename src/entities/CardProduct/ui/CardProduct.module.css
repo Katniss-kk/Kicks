@@ -9,13 +9,22 @@
   margin-block-end: 16px;
 }
 
-.span {
+.spanNew {
   position: absolute;
   border-top-left-radius: 12px;
   border-bottom-right-radius: 13px;
   padding-block: 4px;
   padding-inline: 8px;
   background-color: var(--color-bgLink);
+}
+
+.spanSale {
+  position: absolute;
+  border-top-left-radius: 12px;
+  border-bottom-right-radius: 13px;
+  padding-block: 4px;
+  padding-inline: 8px;
+  background-color: var(--color-basketCounter);
 }
 
 .image {

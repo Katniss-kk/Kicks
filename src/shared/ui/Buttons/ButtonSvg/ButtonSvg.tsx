@@ -1,4 +1,4 @@
-import { IButtonSvg } from './libs/types';
+import type { IButtonSvg } from './libs/types';
 
 export default function ButtonSvg({ css, children, handleClick }: IButtonSvg) {
   return (

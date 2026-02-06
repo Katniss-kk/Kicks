@@ -1,4 +1,5 @@
-import { createSlice, PayloadAction } from '@reduxjs/toolkit';
+import type { PayloadAction } from '@reduxjs/toolkit';
+import { createSlice } from '@reduxjs/toolkit';
 
 interface IProductState {
   sizes: number[];
@@ -31,7 +32,11 @@ const FilterSlice = createSlice({
       }
     },
     setSort: (state, action: PayloadAction<string>) => {
-      state.sort = action.payload;
+      if ((state.sort === action.payload)) {
+        state.sort = null;
+      } else {
+        state.sort = action.payload;
+      }
     },
     clearFilter: (state) => {
       state.colors = [];

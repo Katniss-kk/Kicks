@@ -1,5 +1,5 @@
 import style from './ButtonFilterOpen.module.css';
-import { IButtonFilterOpen } from './libs/types';
+import type { IButtonFilterOpen } from './libs/types';
 
 export default function ButtonFilterOpen({ name, svg, handleClick }: IButtonFilterOpen) {
   return (

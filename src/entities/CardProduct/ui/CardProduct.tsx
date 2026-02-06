@@ -5,11 +5,13 @@ import { CardProductConstants } from '../libs/CardProductConstants';
 import useCardProduct from '../model/useCardProduct';
 
 export default function CardProduct({ product }: ICardProduct) {
-  const { handleClick } = useCardProduct();
+  const { handleClick, newProduct } = useCardProduct();
+  const newElement = <span className={style.spanNew}>{CardProductConstants.new}</span>;
+  const saleElement = <span className={style.spanSale}>{product.sale}{CardProductConstants.sale}</span>;
   return (
     <div className={style.card}>
       <div className={style.imgContainer}>
-        <span className={style.span}>{CardProductConstants.new}</span>
+        {product.sale !== 0 ? saleElement : newProduct(product) && newElement}
         <img src={product.image[0]} alt={product.model} className={style.image} />
       </div>
       <div className={style.textContainer}>

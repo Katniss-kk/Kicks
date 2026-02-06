@@ -1,0 +1,39 @@
+.baner {
+  display: grid;
+  align-items: end;
+  padding: 16px;
+  inline-size: 90%;
+  min-block-size: 149px;
+  margin-block-start: 48px;
+  margin-block-end: 24px;
+  margin-inline: auto;
+  background-image: url('/public/images/catalogBanner.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.textContainer {
+  display: grid;
+  gap: 4px;
+  max-inline-size: 213px;
+}
+
+.text {
+  font-family: var(--font-text);
+  color: var(--color-text);
+}
+
+.span {
+  font-weight: var(--font-weightRegular);
+  font-size: 12px;
+}
+
+.paragraph {
+  font-weight: var(--font-weightRegular);
+  font-size: 10px;
+}
+
+.title {
+  font-weight: var(--font-weightSemiBold);
+  font-size: 20px;
+}

@@ -11,6 +11,15 @@ export default [
     ignores: ['dist', 'node_modules', 'build', '.storybook', 'coverage', '*.log', '*.md'],
   },
 
+  // Базовые правила для JS файлов
+  {
+    files: ['**/*.js'],
+    rules: {
+      ...js.configs.recommended.rules,
+      'no-unused-vars': ['warn', { argsIgnorePattern: '^_', varsIgnorePattern: '^_' }],
+    },
+  },
+
   // Основная конфигурация для React + TypeScript
   {
     files: ['**/*.{ts,tsx}'],
@@ -34,25 +43,10 @@ export default [
       'react-refresh': reactRefresh,
     },
     rules: {
-      // Базовые правила
-      ...js.configs.recommended.rules,
-      ...tseslint.configs.recommended.rules,
+      // Отключаем базовое правило no-unused-vars для TS файлов
+      'no-unused-vars': 'off',
 
-      // React правила
-      'react/jsx-uses-react': 'error',
-      'react/jsx-uses-vars': 'error',
-
-      // React Hooks
-      ...reactHooks.configs.recommended.rules,
-
-      // React Refresh
-      'react-refresh/only-export-components': ['warn', { allowConstantExport: true }],
-
-      // Отключаем ненужные правила
-      'react/react-in-jsx-scope': 'off',
-      'react/prop-types': 'off',
-
-      // Кастомные правила
+      // Используем TypeScript версию
       '@typescript-eslint/no-unused-vars': [
         'warn',
         {
@@ -62,14 +56,19 @@ export default [
         },
       ],
 
-      // Отключаем правило для двойных кавычек в тексте
+      // Остальные правила оставляем как есть
+      ...reactHooks.configs.recommended.rules,
+      'react-refresh/only-export-components': ['warn', { allowConstantExport: true }],
+      'react/react-in-jsx-scope': 'off',
+      'react/prop-types': 'off',
+      'react/jsx-uses-react': 'error',
+      'react/jsx-uses-vars': 'error',
       'react/no-unescaped-entities': [
         'error',
         {
-          forbid: ['>', '}'], // Запрещаем только > и }, разрешаем двойные кавычки
+          forbid: ['>', '}'],
         },
       ],
-
       '@typescript-eslint/no-explicit-any': 'warn',
       '@typescript-eslint/consistent-type-imports': [
         'error',

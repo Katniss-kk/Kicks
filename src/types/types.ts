@@ -7,4 +7,5 @@ export interface IProduct {
   sizes: number[];
   colors: string[];
   date: string;
+  sale: number;
 }

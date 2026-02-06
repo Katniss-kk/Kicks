@@ -2,7 +2,8 @@ import LinkCatalog from '@/shared/ui/Links/LinkCatalog';
 import style from './NewsDrops.module.css';
 import { NewsDropsContants } from './libs/NewsDropsContants';
 import CardProduct from '@/entities/CardProduct/ui';
-import { RootState, useSelector } from '@/services/store';
+import type { RootState} from '@/services/store';
+import { useSelector } from '@/services/store';
 
 export default function NewsDrops() {
   const products = useSelector((state: RootState) => state.Products.Products);

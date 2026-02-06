@@ -1,4 +1,12 @@
-.button {
+.containerPagination {
+  display: grid;
+  grid-auto-flow: column;
+  gap: 16px;
+  align-items: center;
+  margin-block-end: 24px;
+}
+
+.buttonPagination {
   display: grid;
   justify-content: center;
   align-items: center;
@@ -14,7 +22,15 @@
   text-transform: uppercase;
 }
 
-.buttonActive {
-    background-color: var(--color-secondText);
-    color: var(--color-mainText);
+.buttonPaginationPrev {
+  transform: rotate(180deg);
+}
+
+.buttonPaginationActive {
+  background-color: var(--color-secondText);
+  color: var(--color-mainText);
+}
+
+.disabled {
+    opacity: 0.5;
 }

@@ -5,11 +5,11 @@ import FullModal from '@/shared/ui/FullModal';
 import ButtonFilterOpen from '@/shared/ui/Buttons/ButtonFilterOpen';
 import Filters from '@/features/Filters';
 import useCatalog from './model/useCatalog';
-import ButtonPagination from '@/shared/ui/Buttons/ButtonPagination';
-import Arrow from '@/assets/icons/Arrow';
+import Pagination from './model/Pagination';
 
 export default function Catalog() {
   const {
+    filteredProducts,
     productsData,
     handleClickFilterButton,
     handleClickReset,
@@ -18,6 +18,7 @@ export default function Catalog() {
     isOpen,
     onClose,
     products,
+    pagination,
   } = useCatalog();
 
   if (productsData) {
@@ -40,9 +41,9 @@ export default function Catalog() {
           <p className={style.items}>
             {products === null || products === undefined
               ? CatalogConstants.CatalogInfo.error
-              : productsData.length === 0
-                ? CatalogConstants.CatalogInfo.nullFilterProducts
-                : `${productsData.length} ${CatalogConstants.CatalogInfo.products}`}
+              : filteredProducts.length === 0
+                ? `${filteredProducts.length} ${CatalogConstants.CatalogInfo.products} ${CatalogConstants.CatalogInfo.nullFilterProducts}`
+                : `${filteredProducts.length} ${CatalogConstants.CatalogInfo.products}`}
           </p>
         </div>
         <div className={style.productsContainer}>
@@ -52,18 +53,9 @@ export default function Catalog() {
             </div>
           ))}
         </div>
-        <div className={style.containerPagination}>
-          <ButtonPagination css={style.buttonPagintaionPrev}>
-            <Arrow />
-          </ButtonPagination>
-          <ButtonPagination>1</ButtonPagination>
-          <ButtonPagination active>2</ButtonPagination>
-          <span className={style.spanPagination}>...</span>
-          <ButtonPagination>10</ButtonPagination>
-          <ButtonPagination>
-            <Arrow />
-          </ButtonPagination>
-        </div>
+
+        <Pagination pagination={pagination} />
+
         <FullModal
           title={modalContent}
           isOpen={isOpen}

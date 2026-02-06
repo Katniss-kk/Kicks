@@ -1,6 +1,7 @@
 import { configureStore } from '@reduxjs/toolkit';
+import type {
+  TypedUseSelectorHook} from 'react-redux';
 import {
-  TypedUseSelectorHook,
   useDispatch as dispatchHook,
   useSelector as selectorHook,
 } from 'react-redux';

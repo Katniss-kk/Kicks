@@ -30,19 +30,3 @@
   grid-template-columns: repeat(2, 1fr);
   gap: 16px;
 }
-
-.containerPagination {
-  display: grid;
-  grid-auto-flow: column;
-  gap: 16px;
-  align-items: center;
-  margin-block-end: 24px;
-}
-
-.spanPagination {
-  text-align: center;
-}
-
-.buttonPagintaionPrev {
-  transform: rotate(180deg);
-}

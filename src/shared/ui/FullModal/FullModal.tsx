@@ -1,7 +1,7 @@
 import Cancel from '@/assets/icons/Cancel';
 import ButtonSvg from '../Buttons/ButtonSvg';
 import style from './FullModal.module.css';
-import { IFullModal } from './libs/types';
+import type { IFullModal } from './libs/types';
 import ButtonDefault from '../Buttons/ButtonDefault';
 import FullModalConstants from './libs/FullModalConstants';
 
