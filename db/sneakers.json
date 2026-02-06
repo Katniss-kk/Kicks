@@ -1,282 +1,642 @@
-  [
-    {
-      "id": 1,
-      "brand": "Nike",
-      "model": "Air Force 1",
-      "price": 110,
-      "image": [
-        "images/imageSneaker.jpg",
-        "images/imageSneaker.jpg",
-        "images/imageSneaker.jpg",
-        "images/imageSneaker.jpg"
-      ],
-      "sizes": [7, 7.5, 8, 8.5, 9, 9.5, 10, 10.5, 11, 12],
-      "colors": ["White", "Black", "Triple White"]
-    },
-    {
-      "id": 2,
-      "brand": "Adidas",
-      "model": "Ultraboost 22",
-      "price": 190,
-      "image": [
-        "images/imageSneaker.jpg",
-        "images/imageSneaker.jpg",
-        "images/imageSneaker.jpg",
-        "images/imageSneaker.jpg"
-      ],
-      "sizes": [7, 8, 8.5, 9, 9.5, 10, 11, 12],
-      "colors": ["Black", "Core Black", "Legend Ink"]
-    },
-    {
-      "id": 3,
-      "brand": "Nike",
-      "model": "Air Jordan 1 Retro High",
-      "price": 180,
-      "image": [
-        "images/imageSneaker.jpg",
-        "images/imageSneaker.jpg",
-        "images/imageSneaker.jpg",
-        "images/imageSneaker.jpg"
-      ],
-      "sizes": [7.5, 8, 8.5, 9, 9.5, 10, 11, 12, 13],
-      "colors": ["Black/White", "University Blue", "Dark Mocha"]
-    },
-    {
-      "id": 4,
-      "brand": "New Balance",
-      "model": "990v6",
-      "price": 185,
-      "image": [
-        "images/imageSneaker.jpg",
-        "images/imageSneaker.jpg",
-        "images/imageSneaker.jpg",
-        "images/imageSneaker.jpg"
-      ],
-      "sizes": [7, 7.5, 8, 8.5, 9, 9.5, 10, 10.5, 11, 12],
-      "colors": ["Grey", "Navy", "Black"]
-    },
-    {
-      "id": 5,
-      "brand": "Puma",
-      "model": "RS-X",
-      "price": 110,
-      "image": [
-        "images/imageSneaker.jpg",
-        "images/imageSneaker.jpg",
-        "images/imageSneaker.jpg",
-        "images/imageSneaker.jpg"
-      ],
-      "sizes": [7, 8, 9, 10, 11, 12],
-      "colors": ["Black/Red", "White/Blue", "Grey/Orange"]
-    },
-    {
-      "id": 6,
-      "brand": "Converse",
-      "model": "Chuck Taylor All Star High",
-      "price": 65,
-      "image": [
-        "images/imageSneaker.jpg",
-        "images/imageSneaker.jpg",
-        "images/imageSneaker.jpg",
-        "images/imageSneaker.jpg"
-      ],
-      "sizes": [7, 7.5, 8, 8.5, 9, 9.5, 10, 11],
-      "colors": ["Black", "White", "Red"]
-    },
-    {
-      "id": 7,
-      "brand": "Nike",
-      "model": "Dunk Low",
-      "price": 120,
-      "image": [
-        "images/imageSneaker.jpg",
-        "images/imageSneaker.jpg",
-        "images/imageSneaker.jpg",
-        "images/imageSneaker.jpg"
-      ],
-      "sizes": [7, 8, 8.5, 9, 9.5, 10, 11, 12],
-      "colors": ["Black/White", "University Red", "Sail"]
-    },
-    {
-      "id": 8,
-      "brand": "Adidas",
-      "model": "Superstar",
-      "price": 100,
-      "image": [
-        "images/imageSneaker.jpg",
-        "images/imageSneaker.jpg",
-        "images/imageSneaker.jpg",
-        "images/imageSneaker.jpg"
-      ],
-      "sizes": [7, 7.5, 8, 8.5, 9, 9.5, 10, 11, 12],
-      "colors": ["White/Black", "Core Black", "Cloud White"]
-    },
-    {
-      "id": 9,
-      "brand": "Asics",
-      "model": "Gel-Kayano 14",
-      "price": 160,
-      "image": [
-        "images/imageSneaker.jpg",
-        "images/imageSneaker.jpg",
-        "images/imageSneaker.jpg",
-        "images/imageSneaker.jpg"
-      ],
-      "sizes": [7.5, 8, 8.5, 9, 9.5, 10, 10.5, 11, 12],
-      "colors": ["Silver", "Black", "White"]
-    },
-    {
-      "id": 10,
-      "brand": "Reebok",
-      "model": "Classic Leather",
-      "price": 85,
-      "image": [
-        "images/imageSneaker.jpg",
-        "images/imageSneaker.jpg",
-        "images/imageSneaker.jpg",
-        "images/imageSneaker.jpg"
-      ],
-      "sizes": [7, 8, 9, 10, 11, 12],
-      "colors": ["White", "Black", "Navy"]
-    },
-    {
-      "id": 11,
-      "brand": "Vans",
-      "model": "Old Skool",
-      "price": 75,
-      "image": [
-        "images/imageSneaker.jpg",
-        "images/imageSneaker.jpg",
-        "images/imageSneaker.jpg",
-        "images/imageSneaker.jpg"
-      ],
-      "sizes": [7, 7.5, 8, 8.5, 9, 9.5, 10, 11],
-      "colors": ["Black/White", "Checkerboard", "True White"]
-    },
-    {
-      "id": 12,
-      "brand": "Nike",
-      "model": "Air Max 270",
-      "price": 160,
-      "image": [
-        "images/imageSneaker.jpg",
-        "images/imageSneaker.jpg",
-        "images/imageSneaker.jpg",
-        "images/imageSneaker.jpg"
-      ],
-      "sizes": [7, 8, 8.5, 9, 9.5, 10, 11, 12],
-      "colors": ["Black", "White", "Hot Punch"]
-    },
-    {
-      "id": 13,
-      "brand": "Adidas",
-      "model": "NMD_R1",
-      "price": 150,
-      "image": [
-        "images/imageSneaker.jpg",
-        "images/imageSneaker.jpg",
-        "images/imageSneaker.jpg",
-        "images/imageSneaker.jpg"
-      ],
-      "sizes": [7.5, 8, 8.5, 9, 9.5, 10, 11, 12],
-      "colors": ["Core Black", "White", "Grey"]
-    },
-    {
-      "id": 14,
-      "brand": "Saucony",
-      "model": "Jazz Original",
-      "price": 80,
-      "image": [
-        "images/imageSneaker.jpg",
-        "images/imageSneaker.jpg",
-        "images/imageSneaker.jpg",
-        "images/imageSneaker.jpg"
-      ],
-      "sizes": [7, 8, 9, 10, 11],
-      "colors": ["Shadow Original", "Black", "White"]
-    },
-    {
-      "id": 15,
-      "brand": "Nike",
-      "model": "Blazer Mid '77",
-      "price": 105,
-      "image": [
-        "images/imageSneaker.jpg",
-        "images/imageSneaker.jpg",
-        "images/imageSneaker.jpg",
-        "images/imageSneaker.jpg"
-      ],
-      "sizes": [7, 8, 8.5, 9, 9.5, 10, 11, 12],
-      "colors": ["White", "Black", "Sail"]
-    },
-    {
-      "id": 16,
-      "brand": "Jordan",
-      "model": "Air Jordan 4 Retro",
-      "price": 210,
-      "image": [
-        "images/imageSneaker.jpg",
-        "images/imageSneaker.jpg",
-        "images/imageSneaker.jpg",
-        "images/imageSneaker.jpg"
-      ],
-      "sizes": [7.5, 8, 8.5, 9, 9.5, 10, 11, 12, 13],
-      "colors": ["Fire Red", "Military Black", "Black Canvas"]
-    },
-    {
-      "id": 17,
-      "brand": "New Balance",
-      "model": "550",
-      "price": 110,
-      "image": [
-        "images/imageSneaker.jpg",
-        "images/imageSneaker.jpg",
-        "images/imageSneaker.jpg",
-        "images/imageSneaker.jpg"
-      ],
-      "sizes": [7, 8, 8.5, 9, 9.5, 10, 11, 12],
-      "colors": ["White/Green", "White/Grey", "Black/White"]
-    },
-    {
-      "id": 18,
-      "brand": "Adidas",
-      "model": "Forum Low",
-      "price": 120,
-      "image": [
-        "images/imageSneaker.jpg",
-        "images/imageSneaker.jpg",
-        "images/imageSneaker.jpg",
-        "images/imageSneaker.jpg"
-      ],
-      "sizes": [7, 7.5, 8, 8.5, 9, 9.5, 10, 11, 12],
-      "colors": ["Cloud White", "Core Black", "Grey"]
-    },
-    {
-      "id": 19,
-      "brand": "Nike",
-      "model": "React Infinity Run Flyknit",
-      "price": 160,
-      "image": [
-        "images/imageSneaker.jpg",
-        "images/imageSneaker.jpg",
-        "images/imageSneaker.jpg",
-        "images/imageSneaker.jpg"
-      ],
-      "sizes": [7.5, 8, 8.5, 9, 9.5, 10, 11, 12],
-      "colors": ["Black", "White", "University Red"]
-    },
-    {
-      "id": 20,
-      "brand": "Puma",
-      "model": "Cali",
-      "price": 90,
-      "image": [
-        "images/imageSneaker.jpg",
-        "images/imageSneaker.jpg",
-        "images/imageSneaker.jpg",
-        "images/imageSneaker.jpg"
-      ],
-      "sizes": [7, 8, 9, 10, 11],
-      "colors": ["White", "Pink", "Black"]
-    }
-  ]
+[
+  {
+    "id": 1,
+    "brand": "Nike",
+    "model": "Air Force 1",
+    "price": 110,
+    "image": [
+      "images/imageSneaker.jpg",
+      "images/imageSneaker.jpg",
+      "images/imageSneaker.jpg",
+      "images/imageSneaker.jpg"
+    ],
+    "sizes": [7, 7.5, 8, 8.5, 9, 9.5, 10, 10.5, 11, 12],
+    "colors": ["White", "Black", "Grey"],
+    "date": "2026-02-05",
+    "sale": 0
+  },
+  {
+    "id": 2,
+    "brand": "Adidas",
+    "model": "Ultraboost 22",
+    "price": 190,
+    "image": [
+      "images/imageSneaker.jpg",
+      "images/imageSneaker.jpg",
+      "images/imageSneaker.jpg",
+      "images/imageSneaker.jpg"
+    ],
+    "sizes": [7, 8, 8.5, 9, 9.5, 10, 11, 12],
+    "colors": ["Black", "White", "Blue"],
+    "date": "2026-02-10",
+    "sale": 15
+  },
+  {
+    "id": 3,
+    "brand": "Nike",
+    "model": "Air Jordan 1 Retro High",
+    "price": 180,
+    "image": [
+      "images/imageSneaker.jpg",
+      "images/imageSneaker.jpg",
+      "images/imageSneaker.jpg",
+      "images/imageSneaker.jpg"
+    ],
+    "sizes": [7.5, 8, 8.5, 9, 9.5, 10, 11, 12, 13],
+    "colors": ["Black", "White", "Red"],
+    "date": "2026-02-12",
+    "sale": 25
+  },
+  {
+    "id": 4,
+    "brand": "New Balance",
+    "model": "990v6",
+    "price": 185,
+    "image": [
+      "images/imageSneaker.jpg",
+      "images/imageSneaker.jpg",
+      "images/imageSneaker.jpg",
+      "images/imageSneaker.jpg"
+    ],
+    "sizes": [7, 7.5, 8, 8.5, 9, 9.5, 10, 10.5, 11, 12],
+    "colors": ["Grey", "Navy", "Black"],
+    "date": "2026-02-08",
+    "sale": 0
+  },
+  {
+    "id": 5,
+    "brand": "Puma",
+    "model": "RS-X",
+    "price": 110,
+    "image": [
+      "images/imageSneaker.jpg",
+      "images/imageSneaker.jpg",
+      "images/imageSneaker.jpg",
+      "images/imageSneaker.jpg"
+    ],
+    "sizes": [7, 8, 9, 10, 11, 12],
+    "colors": ["Black", "Red", "White"],
+    "date": "2026-02-15",
+    "sale": 10
+  },
+  {
+    "id": 6,
+    "brand": "Converse",
+    "model": "Chuck Taylor All Star High",
+    "price": 65,
+    "image": [
+      "images/imageSneaker.jpg",
+      "images/imageSneaker.jpg",
+      "images/imageSneaker.jpg",
+      "images/imageSneaker.jpg"
+    ],
+    "sizes": [7, 7.5, 8, 8.5, 9, 9.5, 10, 11],
+    "colors": ["Black", "White", "Red"],
+    "date": "2026-02-18",
+    "sale": 0
+  },
+  {
+    "id": 7,
+    "brand": "Nike",
+    "model": "Dunk Low",
+    "price": 120,
+    "image": [
+      "images/imageSneaker.jpg",
+      "images/imageSneaker.jpg",
+      "images/imageSneaker.jpg",
+      "images/imageSneaker.jpg"
+    ],
+    "sizes": [7, 8, 8.5, 9, 9.5, 10, 11, 12],
+    "colors": ["Black", "White", "Red"],
+    "date": "2026-02-03",
+    "sale": 0
+  },
+  {
+    "id": 8,
+    "brand": "Adidas",
+    "model": "Superstar",
+    "price": 100,
+    "image": [
+      "images/imageSneaker.jpg",
+      "images/imageSneaker.jpg",
+      "images/imageSneaker.jpg",
+      "images/imageSneaker.jpg"
+    ],
+    "sizes": [7.5, 8, 8.5, 9, 9.5, 10, 11, 12],
+    "colors": ["White", "Black", "Grey"],
+    "date": "2026-02-22",
+    "sale": 20
+  },
+  {
+    "id": 9,
+    "brand": "Asics",
+    "model": "Gel-Kayano 14",
+    "price": 160,
+    "image": [
+      "images/imageSneaker.jpg",
+      "images/imageSneaker.jpg",
+      "images/imageSneaker.jpg",
+      "images/imageSneaker.jpg"
+    ],
+    "sizes": [8, 8.5, 9, 9.5, 10, 10.5, 11, 12],
+    "colors": ["Silver", "Black", "White"],
+    "date": "2026-02-25",
+    "sale": 0
+  },
+  {
+    "id": 10,
+    "brand": "Reebok",
+    "model": "Classic Leather",
+    "price": 85,
+    "image": [
+      "images/imageSneaker.jpg",
+      "images/imageSneaker.jpg",
+      "images/imageSneaker.jpg",
+      "images/imageSneaker.jpg"
+    ],
+    "sizes": [7, 8, 9, 10, 11, 12],
+    "colors": ["White", "Black", "Navy"],
+    "date": "2026-02-28",
+    "sale": 30
+  },
+  {
+    "id": 11,
+    "brand": "Vans",
+    "model": "Old Skool",
+    "price": 75,
+    "image": [
+      "images/imageSneaker.jpg",
+      "images/imageSneaker.jpg",
+      "images/imageSneaker.jpg",
+      "images/imageSneaker.jpg"
+    ],
+    "sizes": [7, 7.5, 8, 8.5, 9, 9.5, 10, 11],
+    "colors": ["Black", "White", "Blue"],
+    "date": "2026-02-01",
+    "sale": 0
+  },
+  {
+    "id": 12,
+    "brand": "Nike",
+    "model": "Air Max 270",
+    "price": 160,
+    "image": [
+      "images/imageSneaker.jpg",
+      "images/imageSneaker.jpg",
+      "images/imageSneaker.jpg",
+      "images/imageSneaker.jpg"
+    ],
+    "sizes": [7, 8, 8.5, 9, 9.5, 10, 11, 12],
+    "colors": ["Black", "White", "Red"],
+    "date": "2026-02-14",
+    "sale": 0
+  },
+  {
+    "id": 13,
+    "brand": "Adidas",
+    "model": "NMD_R1",
+    "price": 150,
+    "image": [
+      "images/imageSneaker.jpg",
+      "images/imageSneaker.jpg",
+      "images/imageSneaker.jpg",
+      "images/imageSneaker.jpg"
+    ],
+    "sizes": [7.5, 8, 8.5, 9, 9.5, 10, 11, 12],
+    "colors": ["Black", "White", "Grey"],
+    "date": "2025-01-20",
+    "sale": 5
+  },
+  {
+    "id": 14,
+    "brand": "Saucony",
+    "model": "Jazz Original",
+    "price": 80,
+    "image": [
+      "images/imageSneaker.jpg",
+      "images/imageSneaker.jpg",
+      "images/imageSneaker.jpg",
+      "images/imageSneaker.jpg"
+    ],
+    "sizes": [7, 8, 9, 10, 11],
+    "colors": ["Grey", "Black", "White"],
+    "date": "2025-03-15",
+    "sale": 0
+  },
+  {
+    "id": 15,
+    "brand": "Nike",
+    "model": "Blazer Mid '77",
+    "price": 105,
+    "image": [
+      "images/imageSneaker.jpg",
+      "images/imageSneaker.jpg",
+      "images/imageSneaker.jpg",
+      "images/imageSneaker.jpg"
+    ],
+    "sizes": [7, 8, 8.5, 9, 9.5, 10, 11, 12],
+    "colors": ["White", "Black", "Brown"],
+    "date": "2025-05-10",
+    "sale": 0
+  },
+  {
+    "id": 16,
+    "brand": "Jordan",
+    "model": "Air Jordan 4 Retro",
+    "price": 210,
+    "image": [
+      "images/imageSneaker.jpg",
+      "images/imageSneaker.jpg",
+      "images/imageSneaker.jpg",
+      "images/imageSneaker.jpg"
+    ],
+    "sizes": [7.5, 8, 8.5, 9, 9.5, 10, 11, 12, 13],
+    "colors": ["Red", "Black", "White"],
+    "date": "2025-07-30",
+    "sale": 0
+  },
+  {
+    "id": 17,
+    "brand": "New Balance",
+    "model": "550",
+    "price": 110,
+    "image": [
+      "images/imageSneaker.jpg",
+      "images/imageSneaker.jpg",
+      "images/imageSneaker.jpg",
+      "images/imageSneaker.jpg"
+    ],
+    "sizes": [7, 8, 8.5, 9, 9.5, 10, 11, 12],
+    "colors": ["White", "Green", "Grey"],
+    "date": "2025-09-22",
+    "sale": 0
+  },
+  {
+    "id": 18,
+    "brand": "Adidas",
+    "model": "Forum Low",
+    "price": 120,
+    "image": [
+      "images/imageSneaker.jpg",
+      "images/imageSneaker.jpg",
+      "images/imageSneaker.jpg",
+      "images/imageSneaker.jpg"
+    ],
+    "sizes": [7, 7.5, 8, 8.5, 9, 9.5, 10, 11, 12],
+    "colors": ["White", "Black", "Grey"],
+    "date": "2025-11-05",
+    "sale": 0
+  },
+  {
+    "id": 19,
+    "brand": "Nike",
+    "model": "React Infinity Run Flyknit",
+    "price": 160,
+    "image": [
+      "images/imageSneaker.jpg",
+      "images/imageSneaker.jpg",
+      "images/imageSneaker.jpg",
+      "images/imageSneaker.jpg"
+    ],
+    "sizes": [7.5, 8, 8.5, 9, 9.5, 10, 11, 12],
+    "colors": ["Black", "White", "Red"],
+    "date": "2025-12-18",
+    "sale": 0
+  },
+  {
+    "id": 20,
+    "brand": "Puma",
+    "model": "Cali",
+    "price": 90,
+    "image": [
+      "images/imageSneaker.jpg",
+      "images/imageSneaker.jpg",
+      "images/imageSneaker.jpg",
+      "images/imageSneaker.jpg"
+    ],
+    "sizes": [7, 8, 9, 10, 11],
+    "colors": ["White", "Black", "Red"],
+    "date": "2026-01-25",
+    "sale": 0
+  },
+  {
+    "id": 21,
+    "brand": "Skechers",
+    "model": "Go Walk 6",
+    "price": 75,
+    "image": [
+      "images/imageSneaker.jpg",
+      "images/imageSneaker.jpg",
+      "images/imageSneaker.jpg",
+      "images/imageSneaker.jpg"
+    ],
+    "sizes": [7, 8, 9, 10, 11, 12],
+    "colors": ["Black", "Grey", "Navy"],
+    "date": "2026-02-07",
+    "sale": 0
+  },
+  {
+    "id": 22,
+    "brand": "Under Armour",
+    "model": "Charged Assert 9",
+    "price": 85,
+    "image": [
+      "images/imageSneaker.jpg",
+      "images/imageSneaker.jpg",
+      "images/imageSneaker.jpg",
+      "images/imageSneaker.jpg"
+    ],
+    "sizes": [7.5, 8, 8.5, 9, 10, 11],
+    "colors": ["White", "Black", "Red"],
+    "date": "2025-04-12",
+    "sale": 0
+  },
+  {
+    "id": 23,
+    "brand": "Nike",
+    "model": "Pegasus 39",
+    "price": 130,
+    "image": [
+      "images/imageSneaker.jpg",
+      "images/imageSneaker.jpg",
+      "images/imageSneaker.jpg",
+      "images/imageSneaker.jpg"
+    ],
+    "sizes": [7, 8, 9, 10, 11, 12],
+    "colors": ["Blue", "White", "Black"],
+    "date": "2026-02-19",
+    "sale": 0
+  },
+  {
+    "id": 24,
+    "brand": "Adidas",
+    "model": "Gazelle",
+    "price": 100,
+    "image": [
+      "images/imageSneaker.jpg",
+      "images/imageSneaker.jpg",
+      "images/imageSneaker.jpg",
+      "images/imageSneaker.jpg"
+    ],
+    "sizes": [7, 7.5, 8, 8.5, 9, 10],
+    "colors": ["Green", "White", "Black"],
+    "date": "2025-08-14",
+    "sale": 0
+  },
+  {
+    "id": 25,
+    "brand": "New Balance",
+    "model": "Fresh Foam 1080",
+    "price": 150,
+    "image": [
+      "images/imageSneaker.jpg",
+      "images/imageSneaker.jpg",
+      "images/imageSneaker.jpg",
+      "images/imageSneaker.jpg"
+    ],
+    "sizes": [7, 8, 9, 10, 11, 12],
+    "colors": ["Grey", "Blue", "White"],
+    "date": "2026-02-11",
+    "sale": 0
+  },
+  {
+    "id": 26,
+    "brand": "Hoka",
+    "model": "Clifton 9",
+    "price": 145,
+    "image": [
+      "images/imageSneaker.jpg",
+      "images/imageSneaker.jpg",
+      "images/imageSneaker.jpg",
+      "images/imageSneaker.jpg"
+    ],
+    "sizes": [7.5, 8, 8.5, 9, 10, 11],
+    "colors": ["White", "Black", "Orange"],
+    "date": "2025-06-22",
+    "sale": 0
+  },
+  {
+    "id": 27,
+    "brand": "Nike",
+    "model": "Metcon 8",
+    "price": 140,
+    "image": [
+      "images/imageSneaker.jpg",
+      "images/imageSneaker.jpg",
+      "images/imageSneaker.jpg",
+      "images/imageSneaker.jpg"
+    ],
+    "sizes": [7, 8, 9, 10, 11, 12],
+    "colors": ["Black", "Red", "White"],
+    "date": "2026-02-04",
+    "sale": 0
+  },
+  {
+    "id": 28,
+    "brand": "Brooks",
+    "model": "Ghost 15",
+    "price": 140,
+    "image": [
+      "images/imageSneaker.jpg",
+      "images/imageSneaker.jpg",
+      "images/imageSneaker.jpg",
+      "images/imageSneaker.jpg"
+    ],
+    "sizes": [7, 8, 9, 10, 11],
+    "colors": ["White", "Blue", "Grey"],
+    "date": "2025-10-30",
+    "sale": 0
+  },
+  {
+    "id": 29,
+    "brand": "Adidas",
+    "model": "Stan Smith",
+    "price": 95,
+    "image": [
+      "images/imageSneaker.jpg",
+      "images/imageSneaker.jpg",
+      "images/imageSneaker.jpg",
+      "images/imageSneaker.jpg"
+    ],
+    "sizes": [7, 7.5, 8, 8.5, 9, 10, 11],
+    "colors": ["White", "Green", "Black"],
+    "date": "2026-02-16",
+    "sale": 0
+  },
+  {
+    "id": 30,
+    "brand": "Puma",
+    "model": "Suede Classic",
+    "price": 80,
+    "image": [
+      "images/imageSneaker.jpg",
+      "images/imageSneaker.jpg",
+      "images/imageSneaker.jpg",
+      "images/imageSneaker.jpg"
+    ],
+    "sizes": [7, 8, 9, 10, 11, 12],
+    "colors": ["Black", "White", "Red"],
+    "date": "2025-07-05",
+    "sale": 0
+  },
+  {
+    "id": 31,
+    "brand": "Nike",
+    "model": "Air Max 97",
+    "price": 175,
+    "image": [
+      "images/imageSneaker.jpg",
+      "images/imageSneaker.jpg",
+      "images/imageSneaker.jpg",
+      "images/imageSneaker.jpg"
+    ],
+    "sizes": [7.5, 8, 8.5, 9, 10, 11, 12],
+    "colors": ["Silver", "White", "Black"],
+    "date": "2026-02-23",
+    "sale": 0
+  },
+  {
+    "id": 32,
+    "brand": "Salomon",
+    "model": "Speedcross 5",
+    "price": 130,
+    "image": [
+      "images/imageSneaker.jpg",
+      "images/imageSneaker.jpg",
+      "images/imageSneaker.jpg",
+      "images/imageSneaker.jpg"
+    ],
+    "sizes": [7, 8, 9, 10, 11],
+    "colors": ["Black", "Red", "Blue"],
+    "date": "2025-11-18",
+    "sale": 0
+  },
+  {
+    "id": 33,
+    "brand": "Nike",
+    "model": "Air Zoom Tempo Next%",
+    "price": 200,
+    "image": [
+      "images/imageSneaker.jpg",
+      "images/imageSneaker.jpg",
+      "images/imageSneaker.jpg",
+      "images/imageSneaker.jpg"
+    ],
+    "sizes": [7, 8, 9, 10, 11, 12],
+    "colors": ["White", "Black", "Green"],
+    "date": "2026-02-09",
+    "sale": 0
+  },
+  {
+    "id": 34,
+    "brand": "Asics",
+    "model": "Gel-Nimbus 25",
+    "price": 160,
+    "image": [
+      "images/imageSneaker.jpg",
+      "images/imageSneaker.jpg",
+      "images/imageSneaker.jpg",
+      "images/imageSneaker.jpg"
+    ],
+    "sizes": [7, 8, 9, 10, 11, 12],
+    "colors": ["Blue", "White", "Grey"],
+    "date": "2025-09-05",
+    "sale": 0
+  },
+  {
+    "id": 35,
+    "brand": "Vans",
+    "model": "Sk8-Hi",
+    "price": 85,
+    "image": [
+      "images/imageSneaker.jpg",
+      "images/imageSneaker.jpg",
+      "images/imageSneaker.jpg",
+      "images/imageSneaker.jpg"
+    ],
+    "sizes": [7, 7.5, 8, 8.5, 9, 10, 11],
+    "colors": ["Black", "White", "Blue"],
+    "date": "2026-02-26",
+    "sale": 0
+  },
+  {
+    "id": 36,
+    "brand": "New Balance",
+    "model": "FuelCell Rebel v3",
+    "price": 140,
+    "image": [
+      "images/imageSneaker.jpg",
+      "images/imageSneaker.jpg",
+      "images/imageSneaker.jpg",
+      "images/imageSneaker.jpg"
+    ],
+    "sizes": [7.5, 8, 8.5, 9, 10, 11],
+    "colors": ["Yellow", "Black", "White"],
+    "date": "2025-12-03",
+    "sale": 0
+  },
+  {
+    "id": 37,
+    "brand": "Adidas",
+    "model": "ZX 2K Boost",
+    "price": 130,
+    "image": [
+      "images/imageSneaker.jpg",
+      "images/imageSneaker.jpg",
+      "images/imageSneaker.jpg",
+      "images/imageSneaker.jpg"
+    ],
+    "sizes": [7, 8, 9, 10, 11, 12],
+    "colors": ["Grey", "White", "Black"],
+    "date": "2026-02-13",
+    "sale": 18
+  },
+  {
+    "id": 38,
+    "brand": "Nike",
+    "model": "Air VaporMax Plus",
+    "price": 210,
+    "image": [
+      "images/imageSneaker.jpg",
+      "images/imageSneaker.jpg",
+      "images/imageSneaker.jpg",
+      "images/imageSneaker.jpg"
+    ],
+    "sizes": [7, 8, 9, 10, 11, 12],
+    "colors": ["Black", "White", "Red"],
+    "date": "2025-04-25",
+    "sale": 0
+  },
+  {
+    "id": 39,
+    "brand": "Converse",
+    "model": "Run Star Hike",
+    "price": 120,
+    "image": [
+      "images/imageSneaker.jpg",
+      "images/imageSneaker.jpg",
+      "images/imageSneaker.jpg",
+      "images/imageSneaker.jpg"
+    ],
+    "sizes": [7, 8, 9, 10, 11],
+    "colors": ["White", "Black", "Brown"],
+    "date": "2026-02-20",
+    "sale": 12
+  },
+  {
+    "id": 40,
+    "brand": "Puma",
+    "model": "Future Rider",
+    "price": 90,
+    "image": [
+      "images/imageSneaker.jpg",
+      "images/imageSneaker.jpg",
+      "images/imageSneaker.jpg",
+      "images/imageSneaker.jpg"
+    ],
+    "sizes": [7, 7.5, 8, 8.5, 9, 10, 11],
+    "colors": ["Navy", "White", "Red"],
+    "date": "2025-08-08",
+    "sale": 0
+  }
+]
