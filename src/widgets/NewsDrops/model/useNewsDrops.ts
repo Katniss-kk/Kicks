@@ -1,10 +1,11 @@
 import type { RootState } from '@/services/store';
 import { useSelector } from '@/services/store';
+import { useMemo } from 'react';
 
 export default function useNewsDrops() {
-  const products = useSelector((state: RootState) => {
-    const productsArray = state.Products.Products;
+  const productsArray = useSelector((state: RootState) => state.Products.Products);
 
+  const products = useMemo(() => {
     if (!productsArray) {
       return [];
     }
@@ -19,6 +20,7 @@ export default function useNewsDrops() {
         return productDate.getFullYear() === currentYear && productDate.getMonth() === currentMonth;
       })
       .slice(0, 4);
-  });
+  }, [productsArray]);
+
   return { products };
 }
