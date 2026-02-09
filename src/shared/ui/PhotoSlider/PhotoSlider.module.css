@@ -1,0 +1,27 @@
+.container {
+    inline-size: 100%;
+}
+
+.containerSwiper {
+    inline-size: 100%;
+}
+
+.customSwiper {
+    inline-size: 100%;
+}
+
+.imgSlider {
+    inline-size: 100%;
+}
+
+.photoContainer {
+    inline-size: 100%;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 8px;
+    margin-block: 24px;
+}
+
+.photo {
+    inline-size: 100%;
+}

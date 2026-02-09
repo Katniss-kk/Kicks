@@ -1,7 +1,15 @@
 import type { IProduct } from '@/types/types';
+import { useNavigate } from 'react-router-dom';
 
 export default function useCardProduct() {
-  const handleClick = () => {};
+  const navigate = useNavigate();
+  const handleClickProduct = (product: IProduct) => {
+    navigate(`/product/:${product.id}`);
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth',
+    });
+  };
 
   const newProduct = (product: IProduct) => {
     const productDate = new Date(product.date);
@@ -13,5 +21,5 @@ export default function useCardProduct() {
     );
   };
 
-  return { handleClick, newProduct };
+  return { handleClickProduct, newProduct };
 }

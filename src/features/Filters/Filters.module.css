@@ -18,6 +18,10 @@
   background-color: transparent;
   min-inline-size: 24px;
   min-block-size: 24px;
+  font-family: var(--font-text);
+  font-weight: var(--font-weightMedium);
+  font-size: 14px;
+  text-transform: uppercase;
   cursor: pointer;
 }
 
@@ -33,57 +37,8 @@
   padding-inline-end: 42px;
 }
 
-.buttonSize {
-  background-color: var(--color-mainText);
-  color: var(--color-secondText);
-  border: none;
-  block-size: 48px;
-  min-inline-size: 50px;
-  border-radius: 8px;
-  cursor: pointer;
-}
-
-.buttonSizeActive {
-  background: var(--color-secondText);
-  color: var(--color-mainText);
-}
-
 .buttonColorActive {
   opacity: 0.5;
-}
-
-.Black {
-  background-color: black;
-}
-.White {
-  background-color: white;
-}
-.Red {
-  background-color: red;
-}
-.Grey {
-  background-color: gray;
-}
-.Blue {
-  background-color: blue;
-}
-.Navy {
-  background-color: navy;
-}
-.Green {
-  background-color: green;
-}
-.Brown {
-  background-color: brown;
-}
-.Silver {
-  background-color: silver;
-}
-.Orange {
-  background-color: orange;
-}
-.Yellow {
-  background-color: yellow;
 }
 
 .sortContainer {

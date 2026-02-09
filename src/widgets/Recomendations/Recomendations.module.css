@@ -1,0 +1,18 @@
+.recom {
+  display: grid;
+  gap: 24px;
+  margin-block-start: 24px;
+}
+
+.title {
+  font-family: var(--font-text);
+  font-weight: var(--font-weightSemiBold);
+  font-size: 24px;
+  color: var(--color-secondText);
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+}

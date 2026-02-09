@@ -8,6 +8,8 @@ import ButtonFilter from '@/shared/ui/Buttons/ButtonFilter';
 import clsx from 'clsx';
 import ButtonFilterCheckBox from '@/shared/ui/Buttons/ButtonFilterCheckBox';
 import useFilters from './libs/useFilters';
+import SizesConstant from '@/libs/constants/SizesConstant';
+import ColorsConstant from '@/libs/constants/ColorsConstant';
 
 export default function Filters({ content }: IFilters) {
   const {
@@ -40,7 +42,7 @@ export default function Filters({ content }: IFilters) {
           </div>
           <div className={style.containerButtons}>
             {activeSizes
-              ? FiltersConstants.SizesConstant.map((size) => {
+              ? SizesConstant.map((size) => {
                   const activeSize = sizes.includes(size);
                   return (
                     <ButtonFilter
@@ -68,17 +70,17 @@ export default function Filters({ content }: IFilters) {
           </div>
           <div className={style.containerButtons}>
             {activeColors
-              ? FiltersConstants.ColorsConstant.map((color) => {
-                  const className = color.charAt(0) + color.slice(1);
+              ? ColorsConstant.map((color) => {
                   const activeColor = colors.includes(color);
+                  const cssClasses = clsx(
+                    style.buttonSize,
+                    color,
+                    activeColor ? style.buttonColorActive : ''
+                  );
                   return (
                     <ButtonFilter
                       handleClick={handleClickAddColor}
-                      css={clsx(
-                        style.buttonSize,
-                        style[className],
-                        activeColor ? style.buttonColorActive : ''
-                      )}
+                      css={cssClasses}
                       name={color}
                       key={color}
                     />

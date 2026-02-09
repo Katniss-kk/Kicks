@@ -1,11 +1,10 @@
 import style from './CardProduct.module.css';
 import type { ICardProduct } from '../libs/types';
-import ButtonDefault from '@shared/ui/Buttons/ButtonDefault';
 import { CardProductConstants } from '../libs/CardProductConstants';
 import useCardProduct from '../model/useCardProduct';
 
 export default function CardProduct({ product }: ICardProduct) {
-  const { handleClick, newProduct } = useCardProduct();
+  const { handleClickProduct, newProduct } = useCardProduct();
   const newElement = <span className={style.spanNew}>{CardProductConstants.new}</span>;
   const saleElement = <span className={style.spanSale}>{product.sale}{CardProductConstants.sale}</span>;
   return (
@@ -16,12 +15,10 @@ export default function CardProduct({ product }: ICardProduct) {
       </div>
       <div className={style.textContainer}>
         <h4 className={style.title}>{`${product.brand} ${product.model}`}</h4>
-        <ButtonDefault handleClick={handleClick} css={style.button}>
-          <>
+        <button onClick={() => handleClickProduct(product)} className={style.button}>
             {CardProductConstants.button}
             <span className={style.buttonPrice}>{product.price}</span>
-          </>
-        </ButtonDefault>
+        </button>
       </div>
     </div>
   );

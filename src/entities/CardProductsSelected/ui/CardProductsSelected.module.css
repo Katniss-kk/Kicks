@@ -1,0 +1,108 @@
+.discountSpan {
+  font-family: var(--font-text);
+  font-weight: var(--font-weightSemiBold);
+  font-size: 12px;
+  color: var(--color-mainText);
+  padding-block: 8px;
+  padding-inline: 16px;
+  background-color: var(--color-basketCounter);
+  border-radius: 8px;
+  inline-size: max-content;
+}
+
+.cardContainer {
+}
+
+.textContainer {
+  display: grid;
+  gap: 8px;
+}
+
+.text {
+  font-family: var(--font-text);
+  font-weight: var(--font-weightSemiBold);
+}
+
+.title {
+  font-size: 20px;
+  color: var(--color-secondText);
+}
+
+.price {
+  font-size: 24px;
+  color: var(--color-bgLink);
+}
+
+.titleBlock {
+  font-size: 16px;
+  color: var(--color-secondText);
+}
+
+.container {
+  margin-block-start: 24px;
+  display: grid;
+  gap: 8px;
+}
+
+.colorButtonContainer {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  row-gap: 8px;
+}
+
+.colorButton {
+  position: relative;
+  border-radius: 100px;
+  inline-size: 21px;
+  block-size: 21px;
+}
+
+.spanButtonColor {
+  position: absolute;
+  top: -6px;
+  left: -6.4px;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100px;
+  border: 3px solid var(--color-secondText);
+  inline-size: 30px;
+  block-size: 30px;
+}
+
+.buttonSize {
+  color: var(--color-secondText);
+  border: none;
+  block-size: 48px;
+  min-inline-size: 50px;
+  border-radius: 8px;
+  font-family: var(--font-text);
+  font-weight: var(--font-weightMedium);
+  font-size: 14px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.sizeButtonContainer {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 8px;
+}
+
+.buttonSizeActive {
+  background: var(--color-secondText);
+  color: var(--color-mainText);
+}
+
+.buttonSizeDisable {
+  background-color: var(--bg-buttonDisable);
+  color: var(--color-buttonDisable);
+}
+
+.buttonCard {
+  background-color: var(--color-secondText);
+}
+
+.buttonBuy {
+  background-color: var(--color-bgLink);
+}

@@ -1,30 +1,17 @@
-import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation } from 'swiper/modules';
-import type { Swiper as SwiperType } from 'swiper';
+import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import style from './CategoriesSlider.module.css';
-import { useRef } from 'react';
 import ButtonSliderCategories from '@/shared/ui/Buttons/ButtonSliderCategories';
 
 import categories from '../../../public/db/categories.json';
 import CardCategories from '@/shared/ui/CardCategories';
 import CategoriesSliderConstant from './libs/CategoriesSliderConstants';
+import useCategoriesSlider from './model/useCategoriesSlider';
 
 export default function CategoriesSlider() {
-  const swiperRef = useRef<SwiperType | null>(null);
-
-  const handleClickPrev = () => {
-    if (swiperRef.current) {
-      swiperRef.current.slidePrev();
-    }
-  };
-
-  const handleClickNext = () => {
-    if (swiperRef.current) {
-      swiperRef.current.slideNext();
-    }
-  };
+  const { swiperRef, handleClickNext, handleClickPrev } = useCategoriesSlider();
 
   return (
     <div className={style.sliderContainer}>

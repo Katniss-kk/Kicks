@@ -1,0 +1,5 @@
+.container {
+  margin-block: 48px;
+  padding-inline: 16px;
+  background-color: var(--color-text);
+}
