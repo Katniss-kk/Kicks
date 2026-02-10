@@ -2,7 +2,8 @@ const CardProductsSelectedContant = {
   Discount: 'Discount',
   Color: 'Color',
   Size: 'Size',
-  toCard: 'add to card',
+  toCard: 'add to basket',
+  inCard: 'in basket',
   buy: 'buy it now',
 };
 

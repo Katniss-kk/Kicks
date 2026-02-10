@@ -45,3 +45,24 @@
   display: grid;
   gap: 8px;
 }
+
+.buttonFilterSelect {
+  border: none;
+  block-size: 48px;
+  border-radius: 8px;
+  font-family: var(--font-text);
+  font-weight: var(--font-weightMedium);
+  font-size: 14px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.buttonFilterSize {
+  background-color: var(--color-mainText);
+  color: var(--color-secondText);
+}
+
+.buttonSizeActive {
+  background-color: var(--color-secondText);
+  color: var(--color-mainText);
+}

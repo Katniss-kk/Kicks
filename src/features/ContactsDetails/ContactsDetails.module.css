@@ -1,0 +1,46 @@
+.contacts {
+  display: grid;
+  gap: 20px;
+}
+
+.containerBlock {
+  display: grid;
+  gap: 20px;
+}
+
+.container {
+  position: relative;
+  display: grid;
+  gap: 8px;
+}
+
+.text {
+  font-family: var(--font-text);
+  font-weight: var(--font-weightSemiBold);
+  color: var(--color-secondText);
+}
+
+.title {
+  font-size: 24px;
+}
+
+.paragraph {
+  font-size: 14px;
+}
+
+.button {
+  display: grid;
+  grid-auto-flow: column;
+  justify-content: space-between;
+  align-items: center;
+  border: none;
+  inline-size: 100%;
+  padding-inline: 16px;
+  min-block-size: 48px;
+  background-color: var(--color-secondText);
+  font-family: var(--font-text);
+  font-weight: var(--font-weightMedium);
+  font-size: 14px;
+  color: var(--color-mainText);
+  text-transform: uppercase;
+}

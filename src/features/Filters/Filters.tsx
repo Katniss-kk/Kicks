@@ -26,7 +26,7 @@ export default function Filters({ content }: IFilters) {
     colors,
     sort,
   } = useFilters();
-
+  console.log(sizes);
   if (content === CatalogConstants.FiltersButtons[0].name) {
     return (
       <div className={style.modalContent}>
@@ -48,7 +48,11 @@ export default function Filters({ content }: IFilters) {
                     <ButtonFilter
                       handleClick={handleClickAddSize}
                       name={Number(size)}
-                      css={clsx(style.buttonSize, activeSize ? style.buttonSizeActive : '')}
+                      css={clsx(
+                        style.buttonFilterSelect,
+                        style.buttonFilterSize,
+                        activeSize ? style.buttonSizeActive : ''
+                      )}
                       key={size}
                     >
                       <span>{size}</span>
@@ -73,7 +77,7 @@ export default function Filters({ content }: IFilters) {
               ? ColorsConstant.map((color) => {
                   const activeColor = colors.includes(color);
                   const cssClasses = clsx(
-                    style.buttonSize,
+                    style.buttonFilterSelect,
                     color,
                     activeColor ? style.buttonColorActive : ''
                   );

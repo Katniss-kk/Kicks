@@ -72,6 +72,7 @@
 
 .buttonSize {
   color: var(--color-secondText);
+  background-color: var(--color-mainText);
   border: none;
   block-size: 48px;
   min-inline-size: 50px;
@@ -101,8 +102,16 @@
 
 .buttonCard {
   background-color: var(--color-secondText);
+  color: var(--color-mainText);
+  border: none;
 }
 
 .buttonBuy {
   background-color: var(--color-bgLink);
+  color: var(--color-mainText);
+  border: none;
+}
+
+.validation {
+  color: rgb(200, 0, 0);
 }

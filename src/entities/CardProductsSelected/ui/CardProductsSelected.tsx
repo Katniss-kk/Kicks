@@ -17,6 +17,9 @@ export default function CardProductsSelected() {
     handleClickSize,
     handleClickToCard,
     selectedProduct,
+    inBasket,
+    validationColor,
+    validationSize,
   } = useCardProductsSelected();
 
   if (selectedProduct) {
@@ -35,7 +38,9 @@ export default function CardProductsSelected() {
           <h2 className={clsx(style.text, style.price)}>${selectedProduct.price}</h2>
         </div>
         <div className={style.container}>
-          <h3 className={clsx(style.text, style.titleBlock)}>
+          <h3
+            className={clsx(style.text, style.titleBlock, !validationColor ? style.validation : '')}
+          >
             {CardProductsSelectedContant.Color}
           </h3>
           <div className={style.colorButtonContainer}>
@@ -43,13 +48,20 @@ export default function CardProductsSelected() {
               <button
                 className={clsx(style.colorButton, color)}
                 onClick={() => handleClickColor(color)}
+                key={color}
               >
                 <span className={colorActive === color ? style.spanButtonColor : ''}></span>
               </button>
             ))}
           </div>
           <div className={style.container}>
-            <h3 className={clsx(style.text, style.titleBlock)}>
+            <h3
+              className={clsx(
+                style.text,
+                style.titleBlock,
+                !validationSize ? style.validation : ''
+              )}
+            >
               {CardProductsSelectedContant.Size}
             </h3>
             <div className={style.sizeButtonContainer}>
@@ -76,7 +88,7 @@ export default function CardProductsSelected() {
         </div>
         <div className={style.container}>
           <ButtonDefault handleClick={handleClickToCard} css={style.buttonCard}>
-            {CardProductsSelectedContant.toCard}
+            {inBasket ? CardProductsSelectedContant.inCard : CardProductsSelectedContant.toCard}
           </ButtonDefault>
           <ButtonDefault handleClick={handleClickBuy} css={style.buttonBuy}>
             {CardProductsSelectedContant.buy}

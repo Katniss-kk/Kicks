@@ -8,6 +8,9 @@ import { useDispatch } from '@/services/store';
 import { useEffect } from 'react';
 import { setData } from '@/services/slices/ProductsDataSlice/ProductsDataSlice';
 import ProductSelectedPage from '@/pages/ProductSelectedPage';
+import BasketPage from '@/pages/BasketPage';
+import CheckoutPage from '@/pages/CheckoutPage';
+import ProtectedRoute from './ProtectedRoute/ProtectedRoute';
 
 export default function App() {
   const dispatch = useDispatch();
@@ -23,6 +26,22 @@ export default function App() {
           <Route path="/" element={<HomePage />} />
           <Route path="/catalog" element={<CatalogPage />} />
           <Route path="product/:id" element={<ProductSelectedPage />} />
+          <Route
+            path="/basket"
+            element={
+              <ProtectedRoute>
+                <BasketPage />
+              </ProtectedRoute>
+            }
+          />
+          <Route
+            path="/checkout"
+            element={
+              <ProtectedRoute>
+                <CheckoutPage />
+              </ProtectedRoute>
+            }
+          />
         </Route>
       </Routes>
     </Router>

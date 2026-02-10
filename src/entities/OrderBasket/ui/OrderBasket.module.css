@@ -1,0 +1,47 @@
+.orderContainer {
+  display: grid;
+  gap: 16px;
+  inline-size: 100%;
+  block-size: 100%;
+  background-color: var(--color-detailedWidgets);
+  border-radius: 16px;
+  padding: 16px;
+}
+
+.container {
+  display: grid;
+  grid-auto-flow: column;
+  justify-content: space-between;
+}
+
+.text {
+  font-family: var(--font-text);
+  font-weight: var(--font-weightSemiBold);
+  color: var(--color-secondText);
+}
+
+.title {
+  size: 20px;
+}
+
+.span {
+  size: 16px;
+}
+
+.button {
+  inline-size: 100%;
+  padding-block: 14px;
+  border: none;
+  border-radius: 8px;
+  background-color: var(--color-secondText);
+  font-family: var(--font-text);
+  font-weight: var(--font-weightMedium);
+  font-size: 14px;
+  text-transform: uppercase;
+  color: var(--color-mainText);
+}
+
+.disabled {
+  background-color: var(--bg-buttonDisable);
+  color: var(--color-buttonDisable);
+}

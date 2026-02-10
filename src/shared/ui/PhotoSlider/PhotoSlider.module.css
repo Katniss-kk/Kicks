@@ -12,6 +12,8 @@
 
 .imgSlider {
     inline-size: 100%;
+    block-size: 273px;
+    object-fit: cover;
 }
 
 .photoContainer {

@@ -37,13 +37,6 @@
   padding-inline: 16px;
 }
 
-.resetButton {
-  text-align: center;
-  border: 1px solid var(--color-secondText);
-  background-color: transparent;
-  color: var(--color-secondText);
-  text-transform: uppercase;
-}
 
 .applyButton {
   text-align: center;
@@ -57,4 +50,12 @@
   border: none;
   background-color: transparent;
   cursor: pointer;
+}
+
+.resetButton {
+  text-align: center;
+  border: 1px solid var(--color-secondText);
+  background-color: transparent;
+  color: var(--color-secondText);
+  text-transform: uppercase;
 }

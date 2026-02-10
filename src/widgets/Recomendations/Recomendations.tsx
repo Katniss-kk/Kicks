@@ -12,7 +12,7 @@ export default function Recomendations() {
         <h2 className={style.title}>{RecommendationsConstant.title}</h2>
         <div className={style.container}>
           {rec.map((product) => (
-            <CardProduct product={product} />
+            <CardProduct product={product} key={product.id} />
           ))}
         </div>
       </div>

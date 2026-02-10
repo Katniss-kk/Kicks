@@ -1,0 +1,7 @@
+.checkout {
+  display: grid;
+  gap: 24px;
+  margin-block: 48px;
+  padding-inline: 16px;
+  background-color: var(--color-text);
+}

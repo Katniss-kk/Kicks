@@ -1,16 +1,14 @@
 import { configureStore } from '@reduxjs/toolkit';
-import type {
-  TypedUseSelectorHook} from 'react-redux';
-import {
-  useDispatch as dispatchHook,
-  useSelector as selectorHook,
-} from 'react-redux';
+import type { TypedUseSelectorHook } from 'react-redux';
+import { useDispatch as dispatchHook, useSelector as selectorHook } from 'react-redux';
 import { ProductsDataReducer } from './slices/ProductsDataSlice/ProductsDataSlice';
 import { FilterReducer } from './slices/FiltersSlice/FiltersSlice';
+import { BasketReducer } from './slices/BasketSlice/BasketSlice';
 
 const rootReducer = {
   Products: ProductsDataReducer,
   Filters: FilterReducer,
+  Basket: BasketReducer,
 };
 
 const store = configureStore({

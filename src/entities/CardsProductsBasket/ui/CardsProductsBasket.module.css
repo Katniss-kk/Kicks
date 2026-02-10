@@ -1,0 +1,75 @@
+.basketContainer {
+  display: grid;
+  gap: 8px;
+  inline-size: 100%;
+  block-size: 100%;
+  background-color: var(--color-detailedWidgets);
+  border-radius: 16px;
+  padding: 16px;
+}
+
+.titleContainer {
+  display: grid;
+  gap: 8px;
+  inline-size: 100%;
+}
+
+.cardContainer {
+  inline-size: 100%;
+  min-block-size: 150px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+}
+
+.text {
+  font-family: var(--font-text);
+  font-weight: var(--font-weightSemiBold);
+  color: var(--color-secondText);
+}
+
+.paragraph {
+  font-family: var(--font-text);
+  font-weight: var(--font-weightRegular);
+  font-size: 14px;
+  color: var(--color-secondText);
+}
+
+.cardTextContainer {
+  display: grid;
+  gap: 4px;
+}
+
+.price {
+  font-family: var(--font-text);
+  font-weight: var(--font-weightSemiBold);
+  font-size: 20px;
+  color: var(--color-bgLink);
+}
+
+.titleCards {
+  font-size: 20px;
+}
+
+.title {
+  font-size: 16px;
+}
+
+.aboutText {
+  font-size: 14px;
+}
+
+.cardPhoto {
+  inline-size: 100%;
+  block-size: 100%;
+  object-fit: cover;
+  border-radius: 24px;
+}
+
+.buttonDelete {
+    border: none;
+    background-color: transparent;
+    inline-size: max-content;
+    block-size: max-content;
+    padding: 0;
+}
