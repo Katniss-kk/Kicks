@@ -8,6 +8,7 @@
   display: grid;
   grid-template-rows: max-content 83% max-content;
   overflow: hidden;
+  padding-block-end: 12px;
 }
 
 .modalContent {
