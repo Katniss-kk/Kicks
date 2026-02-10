@@ -6,9 +6,9 @@
     "price": 110,
     "image": [
       "images/imageSneaker.jpg",
-      "images/imageSneaker.jpg",
-      "images/imageSneaker.jpg",
-      "images/imageSneaker.jpg"
+      "images/imageSneaker2.jpg",
+      "images/imageSneaker3.jpg",
+      "images/imageSneaker4.jpg"
     ],
     "sizes": [7, 7.5, 8, 8.5, 9, 9.5, 10, 10.5, 11, 12],
     "colors": ["White", "Black", "Grey"],
@@ -22,9 +22,9 @@
     "price": 190,
     "image": [
       "images/imageSneaker.jpg",
-      "images/imageSneaker.jpg",
-      "images/imageSneaker.jpg",
-      "images/imageSneaker.jpg"
+      "images/imageSneaker2.jpg",
+      "images/imageSneaker3.jpg",
+      "images/imageSneaker4.jpg"
     ],
     "sizes": [7, 8, 8.5, 9, 9.5, 10, 11, 12],
     "colors": ["Black", "White", "Blue"],
@@ -38,9 +38,9 @@
     "price": 180,
     "image": [
       "images/imageSneaker.jpg",
-      "images/imageSneaker.jpg",
-      "images/imageSneaker.jpg",
-      "images/imageSneaker.jpg"
+      "images/imageSneaker2.jpg",
+      "images/imageSneaker3.jpg",
+      "images/imageSneaker4.jpg"
     ],
     "sizes": [7.5, 8, 8.5, 9, 9.5, 10, 11, 12, 13],
     "colors": ["Black", "White", "Red"],
@@ -54,9 +54,9 @@
     "price": 185,
     "image": [
       "images/imageSneaker.jpg",
-      "images/imageSneaker.jpg",
-      "images/imageSneaker.jpg",
-      "images/imageSneaker.jpg"
+      "images/imageSneaker2.jpg",
+      "images/imageSneaker3.jpg",
+      "images/imageSneaker4.jpg"
     ],
     "sizes": [7, 7.5, 8, 8.5, 9, 9.5, 10, 10.5, 11, 12],
     "colors": ["Grey", "Navy", "Black"],
@@ -70,9 +70,9 @@
     "price": 110,
     "image": [
       "images/imageSneaker.jpg",
-      "images/imageSneaker.jpg",
-      "images/imageSneaker.jpg",
-      "images/imageSneaker.jpg"
+      "images/imageSneaker2.jpg",
+      "images/imageSneaker3.jpg",
+      "images/imageSneaker4.jpg"
     ],
     "sizes": [7, 8, 9, 10, 11, 12],
     "colors": ["Black", "Red", "White"],
@@ -86,9 +86,9 @@
     "price": 65,
     "image": [
       "images/imageSneaker.jpg",
-      "images/imageSneaker.jpg",
-      "images/imageSneaker.jpg",
-      "images/imageSneaker.jpg"
+      "images/imageSneaker2.jpg",
+      "images/imageSneaker3.jpg",
+      "images/imageSneaker4.jpg"
     ],
     "sizes": [7, 7.5, 8, 8.5, 9, 9.5, 10, 11],
     "colors": ["Black", "White", "Red"],
@@ -102,9 +102,9 @@
     "price": 120,
     "image": [
       "images/imageSneaker.jpg",
-      "images/imageSneaker.jpg",
-      "images/imageSneaker.jpg",
-      "images/imageSneaker.jpg"
+      "images/imageSneaker2.jpg",
+      "images/imageSneaker3.jpg",
+      "images/imageSneaker4.jpg"
     ],
     "sizes": [7, 8, 8.5, 9, 9.5, 10, 11, 12],
     "colors": ["Black", "White", "Red"],
@@ -118,9 +118,9 @@
     "price": 100,
     "image": [
       "images/imageSneaker.jpg",
-      "images/imageSneaker.jpg",
-      "images/imageSneaker.jpg",
-      "images/imageSneaker.jpg"
+      "images/imageSneaker2.jpg",
+      "images/imageSneaker3.jpg",
+      "images/imageSneaker4.jpg"
     ],
     "sizes": [7.5, 8, 8.5, 9, 9.5, 10, 11, 12],
     "colors": ["White", "Black", "Grey"],
@@ -134,9 +134,9 @@
     "price": 160,
     "image": [
       "images/imageSneaker.jpg",
-      "images/imageSneaker.jpg",
-      "images/imageSneaker.jpg",
-      "images/imageSneaker.jpg"
+      "images/imageSneaker2.jpg",
+      "images/imageSneaker3.jpg",
+      "images/imageSneaker4.jpg"
     ],
     "sizes": [8, 8.5, 9, 9.5, 10, 10.5, 11, 12],
     "colors": ["Silver", "Black", "White"],
@@ -150,9 +150,9 @@
     "price": 85,
     "image": [
       "images/imageSneaker.jpg",
-      "images/imageSneaker.jpg",
-      "images/imageSneaker.jpg",
-      "images/imageSneaker.jpg"
+      "images/imageSneaker2.jpg",
+      "images/imageSneaker3.jpg",
+      "images/imageSneaker4.jpg"
     ],
     "sizes": [7, 8, 9, 10, 11, 12],
     "colors": ["White", "Black", "Navy"],
@@ -166,9 +166,9 @@
     "price": 75,
     "image": [
       "images/imageSneaker.jpg",
-      "images/imageSneaker.jpg",
-      "images/imageSneaker.jpg",
-      "images/imageSneaker.jpg"
+      "images/imageSneaker2.jpg",
+      "images/imageSneaker3.jpg",
+      "images/imageSneaker4.jpg"
     ],
     "sizes": [7, 7.5, 8, 8.5, 9, 9.5, 10, 11],
     "colors": ["Black", "White", "Blue"],
@@ -182,9 +182,9 @@
     "price": 160,
     "image": [
       "images/imageSneaker.jpg",
-      "images/imageSneaker.jpg",
-      "images/imageSneaker.jpg",
-      "images/imageSneaker.jpg"
+      "images/imageSneaker2.jpg",
+      "images/imageSneaker3.jpg",
+      "images/imageSneaker4.jpg"
     ],
     "sizes": [7, 8, 8.5, 9, 9.5, 10, 11, 12],
     "colors": ["Black", "White", "Red"],
@@ -198,9 +198,9 @@
     "price": 150,
     "image": [
       "images/imageSneaker.jpg",
-      "images/imageSneaker.jpg",
-      "images/imageSneaker.jpg",
-      "images/imageSneaker.jpg"
+      "images/imageSneaker2.jpg",
+      "images/imageSneaker3.jpg",
+      "images/imageSneaker4.jpg"
     ],
     "sizes": [7.5, 8, 8.5, 9, 9.5, 10, 11, 12],
     "colors": ["Black", "White", "Grey"],
@@ -214,9 +214,9 @@
     "price": 80,
     "image": [
       "images/imageSneaker.jpg",
-      "images/imageSneaker.jpg",
-      "images/imageSneaker.jpg",
-      "images/imageSneaker.jpg"
+      "images/imageSneaker2.jpg",
+      "images/imageSneaker3.jpg",
+      "images/imageSneaker4.jpg"
     ],
     "sizes": [7, 8, 9, 10, 11],
     "colors": ["Grey", "Black", "White"],
@@ -230,9 +230,9 @@
     "price": 105,
     "image": [
       "images/imageSneaker.jpg",
-      "images/imageSneaker.jpg",
-      "images/imageSneaker.jpg",
-      "images/imageSneaker.jpg"
+      "images/imageSneaker2.jpg",
+      "images/imageSneaker3.jpg",
+      "images/imageSneaker4.jpg"
     ],
     "sizes": [7, 8, 8.5, 9, 9.5, 10, 11, 12],
     "colors": ["White", "Black", "Brown"],
@@ -246,9 +246,9 @@
     "price": 210,
     "image": [
       "images/imageSneaker.jpg",
-      "images/imageSneaker.jpg",
-      "images/imageSneaker.jpg",
-      "images/imageSneaker.jpg"
+      "images/imageSneaker2.jpg",
+      "images/imageSneaker3.jpg",
+      "images/imageSneaker4.jpg"
     ],
     "sizes": [7.5, 8, 8.5, 9, 9.5, 10, 11, 12, 13],
     "colors": ["Red", "Black", "White"],
@@ -262,9 +262,9 @@
     "price": 110,
     "image": [
       "images/imageSneaker.jpg",
-      "images/imageSneaker.jpg",
-      "images/imageSneaker.jpg",
-      "images/imageSneaker.jpg"
+      "images/imageSneaker2.jpg",
+      "images/imageSneaker3.jpg",
+      "images/imageSneaker4.jpg"
     ],
     "sizes": [7, 8, 8.5, 9, 9.5, 10, 11, 12],
     "colors": ["White", "Green", "Grey"],
@@ -278,9 +278,9 @@
     "price": 120,
     "image": [
       "images/imageSneaker.jpg",
-      "images/imageSneaker.jpg",
-      "images/imageSneaker.jpg",
-      "images/imageSneaker.jpg"
+      "images/imageSneaker2.jpg",
+      "images/imageSneaker3.jpg",
+      "images/imageSneaker4.jpg"
     ],
     "sizes": [7, 7.5, 8, 8.5, 9, 9.5, 10, 11, 12],
     "colors": ["White", "Black", "Grey"],
@@ -294,9 +294,9 @@
     "price": 160,
     "image": [
       "images/imageSneaker.jpg",
-      "images/imageSneaker.jpg",
-      "images/imageSneaker.jpg",
-      "images/imageSneaker.jpg"
+      "images/imageSneaker2.jpg",
+      "images/imageSneaker3.jpg",
+      "images/imageSneaker4.jpg"
     ],
     "sizes": [7.5, 8, 8.5, 9, 9.5, 10, 11, 12],
     "colors": ["Black", "White", "Red"],
@@ -310,9 +310,9 @@
     "price": 90,
     "image": [
       "images/imageSneaker.jpg",
-      "images/imageSneaker.jpg",
-      "images/imageSneaker.jpg",
-      "images/imageSneaker.jpg"
+      "images/imageSneaker2.jpg",
+      "images/imageSneaker3.jpg",
+      "images/imageSneaker4.jpg"
     ],
     "sizes": [7, 8, 9, 10, 11],
     "colors": ["White", "Black", "Red"],
@@ -326,9 +326,9 @@
     "price": 75,
     "image": [
       "images/imageSneaker.jpg",
-      "images/imageSneaker.jpg",
-      "images/imageSneaker.jpg",
-      "images/imageSneaker.jpg"
+      "images/imageSneaker2.jpg",
+      "images/imageSneaker3.jpg",
+      "images/imageSneaker4.jpg"
     ],
     "sizes": [7, 8, 9, 10, 11, 12],
     "colors": ["Black", "Grey", "Navy"],
@@ -342,9 +342,9 @@
     "price": 85,
     "image": [
       "images/imageSneaker.jpg",
-      "images/imageSneaker.jpg",
-      "images/imageSneaker.jpg",
-      "images/imageSneaker.jpg"
+      "images/imageSneaker2.jpg",
+      "images/imageSneaker3.jpg",
+      "images/imageSneaker4.jpg"
     ],
     "sizes": [7.5, 8, 8.5, 9, 10, 11],
     "colors": ["White", "Black", "Red"],
@@ -358,9 +358,9 @@
     "price": 130,
     "image": [
       "images/imageSneaker.jpg",
-      "images/imageSneaker.jpg",
-      "images/imageSneaker.jpg",
-      "images/imageSneaker.jpg"
+      "images/imageSneaker2.jpg",
+      "images/imageSneaker3.jpg",
+      "images/imageSneaker4.jpg"
     ],
     "sizes": [7, 8, 9, 10, 11, 12],
     "colors": ["Blue", "White", "Black"],
@@ -374,9 +374,9 @@
     "price": 100,
     "image": [
       "images/imageSneaker.jpg",
-      "images/imageSneaker.jpg",
-      "images/imageSneaker.jpg",
-      "images/imageSneaker.jpg"
+      "images/imageSneaker2.jpg",
+      "images/imageSneaker3.jpg",
+      "images/imageSneaker4.jpg"
     ],
     "sizes": [7, 7.5, 8, 8.5, 9, 10],
     "colors": ["Green", "White", "Black"],
@@ -390,9 +390,9 @@
     "price": 150,
     "image": [
       "images/imageSneaker.jpg",
-      "images/imageSneaker.jpg",
-      "images/imageSneaker.jpg",
-      "images/imageSneaker.jpg"
+      "images/imageSneaker2.jpg",
+      "images/imageSneaker3.jpg",
+      "images/imageSneaker4.jpg"
     ],
     "sizes": [7, 8, 9, 10, 11, 12],
     "colors": ["Grey", "Blue", "White"],
@@ -406,9 +406,9 @@
     "price": 145,
     "image": [
       "images/imageSneaker.jpg",
-      "images/imageSneaker.jpg",
-      "images/imageSneaker.jpg",
-      "images/imageSneaker.jpg"
+      "images/imageSneaker2.jpg",
+      "images/imageSneaker3.jpg",
+      "images/imageSneaker4.jpg"
     ],
     "sizes": [7.5, 8, 8.5, 9, 10, 11],
     "colors": ["White", "Black", "Orange"],
@@ -422,9 +422,9 @@
     "price": 140,
     "image": [
       "images/imageSneaker.jpg",
-      "images/imageSneaker.jpg",
-      "images/imageSneaker.jpg",
-      "images/imageSneaker.jpg"
+      "images/imageSneaker2.jpg",
+      "images/imageSneaker3.jpg",
+      "images/imageSneaker4.jpg"
     ],
     "sizes": [7, 8, 9, 10, 11, 12],
     "colors": ["Black", "Red", "White"],
@@ -438,9 +438,9 @@
     "price": 140,
     "image": [
       "images/imageSneaker.jpg",
-      "images/imageSneaker.jpg",
-      "images/imageSneaker.jpg",
-      "images/imageSneaker.jpg"
+      "images/imageSneaker2.jpg",
+      "images/imageSneaker3.jpg",
+      "images/imageSneaker4.jpg"
     ],
     "sizes": [7, 8, 9, 10, 11],
     "colors": ["White", "Blue", "Grey"],
@@ -454,9 +454,9 @@
     "price": 95,
     "image": [
       "images/imageSneaker.jpg",
-      "images/imageSneaker.jpg",
-      "images/imageSneaker.jpg",
-      "images/imageSneaker.jpg"
+      "images/imageSneaker2.jpg",
+      "images/imageSneaker3.jpg",
+      "images/imageSneaker4.jpg"
     ],
     "sizes": [7, 7.5, 8, 8.5, 9, 10, 11],
     "colors": ["White", "Green", "Black"],
@@ -470,9 +470,9 @@
     "price": 80,
     "image": [
       "images/imageSneaker.jpg",
-      "images/imageSneaker.jpg",
-      "images/imageSneaker.jpg",
-      "images/imageSneaker.jpg"
+      "images/imageSneaker2.jpg",
+      "images/imageSneaker3.jpg",
+      "images/imageSneaker4.jpg"
     ],
     "sizes": [7, 8, 9, 10, 11, 12],
     "colors": ["Black", "White", "Red"],
@@ -486,9 +486,9 @@
     "price": 175,
     "image": [
       "images/imageSneaker.jpg",
-      "images/imageSneaker.jpg",
-      "images/imageSneaker.jpg",
-      "images/imageSneaker.jpg"
+      "images/imageSneaker2.jpg",
+      "images/imageSneaker3.jpg",
+      "images/imageSneaker4.jpg"
     ],
     "sizes": [7.5, 8, 8.5, 9, 10, 11, 12],
     "colors": ["Silver", "White", "Black"],
@@ -502,9 +502,9 @@
     "price": 130,
     "image": [
       "images/imageSneaker.jpg",
-      "images/imageSneaker.jpg",
-      "images/imageSneaker.jpg",
-      "images/imageSneaker.jpg"
+      "images/imageSneaker2.jpg",
+      "images/imageSneaker3.jpg",
+      "images/imageSneaker4.jpg"
     ],
     "sizes": [7, 8, 9, 10, 11],
     "colors": ["Black", "Red", "Blue"],
@@ -518,9 +518,9 @@
     "price": 200,
     "image": [
       "images/imageSneaker.jpg",
-      "images/imageSneaker.jpg",
-      "images/imageSneaker.jpg",
-      "images/imageSneaker.jpg"
+      "images/imageSneaker2.jpg",
+      "images/imageSneaker3.jpg",
+      "images/imageSneaker4.jpg"
     ],
     "sizes": [7, 8, 9, 10, 11, 12],
     "colors": ["White", "Black", "Green"],
@@ -534,9 +534,9 @@
     "price": 160,
     "image": [
       "images/imageSneaker.jpg",
-      "images/imageSneaker.jpg",
-      "images/imageSneaker.jpg",
-      "images/imageSneaker.jpg"
+      "images/imageSneaker2.jpg",
+      "images/imageSneaker3.jpg",
+      "images/imageSneaker4.jpg"
     ],
     "sizes": [7, 8, 9, 10, 11, 12],
     "colors": ["Blue", "White", "Grey"],
@@ -550,9 +550,9 @@
     "price": 85,
     "image": [
       "images/imageSneaker.jpg",
-      "images/imageSneaker.jpg",
-      "images/imageSneaker.jpg",
-      "images/imageSneaker.jpg"
+      "images/imageSneaker2.jpg",
+      "images/imageSneaker3.jpg",
+      "images/imageSneaker4.jpg"
     ],
     "sizes": [7, 7.5, 8, 8.5, 9, 10, 11],
     "colors": ["Black", "White", "Blue"],
@@ -566,9 +566,9 @@
     "price": 140,
     "image": [
       "images/imageSneaker.jpg",
-      "images/imageSneaker.jpg",
-      "images/imageSneaker.jpg",
-      "images/imageSneaker.jpg"
+      "images/imageSneaker2.jpg",
+      "images/imageSneaker3.jpg",
+      "images/imageSneaker4.jpg"
     ],
     "sizes": [7.5, 8, 8.5, 9, 10, 11],
     "colors": ["Yellow", "Black", "White"],
@@ -582,9 +582,9 @@
     "price": 130,
     "image": [
       "images/imageSneaker.jpg",
-      "images/imageSneaker.jpg",
-      "images/imageSneaker.jpg",
-      "images/imageSneaker.jpg"
+      "images/imageSneaker2.jpg",
+      "images/imageSneaker3.jpg",
+      "images/imageSneaker4.jpg"
     ],
     "sizes": [7, 8, 9, 10, 11, 12],
     "colors": ["Grey", "White", "Black"],
@@ -598,9 +598,9 @@
     "price": 210,
     "image": [
       "images/imageSneaker.jpg",
-      "images/imageSneaker.jpg",
-      "images/imageSneaker.jpg",
-      "images/imageSneaker.jpg"
+      "images/imageSneaker2.jpg",
+      "images/imageSneaker3.jpg",
+      "images/imageSneaker4.jpg"
     ],
     "sizes": [7, 8, 9, 10, 11, 12],
     "colors": ["Black", "White", "Red"],
@@ -614,9 +614,9 @@
     "price": 120,
     "image": [
       "images/imageSneaker.jpg",
-      "images/imageSneaker.jpg",
-      "images/imageSneaker.jpg",
-      "images/imageSneaker.jpg"
+      "images/imageSneaker2.jpg",
+      "images/imageSneaker3.jpg",
+      "images/imageSneaker4.jpg"
     ],
     "sizes": [7, 8, 9, 10, 11],
     "colors": ["White", "Black", "Brown"],
@@ -630,9 +630,9 @@
     "price": 90,
     "image": [
       "images/imageSneaker.jpg",
-      "images/imageSneaker.jpg",
-      "images/imageSneaker.jpg",
-      "images/imageSneaker.jpg"
+      "images/imageSneaker2.jpg",
+      "images/imageSneaker3.jpg",
+      "images/imageSneaker4.jpg"
     ],
     "sizes": [7, 7.5, 8, 8.5, 9, 10, 11],
     "colors": ["Navy", "White", "Red"],
