@@ -1,0 +1,16 @@
+.button {
+  display: grid;
+  grid-auto-flow: column;
+  justify-content: space-between;
+  align-items: center;
+  border: none;
+  inline-size: 100%;
+  padding-inline: 16px;
+  min-block-size: 48px;
+  background-color: var(--color-secondText);
+  font-family: var(--font-text);
+  font-weight: var(--font-weightMedium);
+  font-size: 14px;
+  color: var(--color-mainText);
+  text-transform: uppercase;
+}

@@ -26,7 +26,7 @@ export default function Filters({ content }: IFilters) {
     colors,
     sort,
   } = useFilters();
-  console.log(sizes);
+
   if (content === CatalogConstants.FiltersButtons[0].name) {
     return (
       <div className={style.modalContent}>

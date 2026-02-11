@@ -1,0 +1,30 @@
+.loginContainer {
+    display: grid;
+    gap: 24px;
+}
+
+.textContainer {
+    display: grid;
+    gap: 8px;
+}
+
+.title {
+    font-family: var(--font-text);
+    font-weight: var(--font-weightSemiBold);
+    font-size: 24px;
+    color: var(--color-secondText);
+}
+
+.link {
+    font-family: var(--font-text);
+    font-weight: var(--font-weightRegular);
+    font-size: 16px;
+    color: var(--color-secondText);
+    text-decoration: underline;
+}
+
+.inputContainer {
+    display: grid;
+    gap: 24px;
+    background-color: var(--color-text);
+}

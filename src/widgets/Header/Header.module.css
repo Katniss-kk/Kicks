@@ -17,6 +17,12 @@
   margin-block-start: 15px;
 }
 
+.userInteractive {
+  position: relative;
+  display: flex;
+  gap: 9px;
+}
+
 .userContainer {
   display: flex;
   align-items: center;

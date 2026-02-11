@@ -1,14 +1,17 @@
-import useValidation from '@/libs/useValidation';
+import useValidationContacts from '@/libs/useValidationContacts';
+import type { RootState } from '@/services/store';
+import { useSelector } from '@/services/store';
 import type { IValidation } from '@/types/types';
 import type React from 'react';
 import { useState } from 'react';
 
 export default function useConstactsDetails() {
-  const [email, setEmail] = useState<string>('');
-  const [firstName, setFirstName] = useState<string>('');
-  const [lastName, setLastName] = useState<string>('');
-  const [address, setAddress] = useState<string>('');
-  const [phone, setPhone] = useState<string>('');
+  const userData = useSelector((state: RootState) => state.Basket.user);
+  const [email, setEmail] = useState<string>(userData?.email || '');
+  const [firstName, setFirstName] = useState<string>(userData?.firstName || '');
+  const [lastName, setLastName] = useState<string>(userData?.lastName || '');
+  const [address, setAddress] = useState<string>(userData?.address || '');
+  const [phone, setPhone] = useState<string>(userData?.phone || '');
 
   const [validation, setValidation] = useState<IValidation>({
     email: true,
@@ -17,6 +20,8 @@ export default function useConstactsDetails() {
     address: true,
     phone: true,
   });
+
+  const validationResult = useValidationContacts({ email, firstName, lastName, address, phone });
 
   const onChangeEmail = (e: React.ChangeEvent<HTMLInputElement>) => {
     setEmail(e.target.value);
@@ -38,13 +43,13 @@ export default function useConstactsDetails() {
     setPhone(e.target.value);
   };
 
-  const handleClickReview = () => {
-    const validation = useValidation({ email, firstName, lastName, address, phone });
-    if (validation.isValid !== false) {
-      setValidation(validation.errors);
+  const handleClickReview = (e: React.MouseEvent<HTMLButtonElement>) => {
+    e.preventDefault();
+    if (validationResult.isValid !== false) {
+      setValidation(validationResult.errors);
       alert(`! Заглушка ! - Все поля введены верно. Далее оплата заказа`);
     } else {
-      setValidation(validation.errors);
+      setValidation(validationResult.errors);
     }
   };
 

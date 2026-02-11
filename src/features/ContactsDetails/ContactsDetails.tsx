@@ -4,8 +4,8 @@ import InputContacts from '@/shared/ui/InputContacts';
 import ContactsDetailsConstants from './libs/ContactsDetailsConstants';
 import ContactsDetailsButton from './libs/ContactsDetailsButton';
 
-import LongArrow from '@/assets/icons/LongArrow';
 import useConstactsDetails from './libs/useConstactsDetails';
+import ButtonForm from '@/shared/ui/Buttons/ButtonForm';
 
 export default function ContactsDetails() {
   const {
@@ -70,9 +70,7 @@ export default function ContactsDetails() {
           validation={validation.phone}
         />
       </div>
-      <button className={style.button} onClick={() => handleClickReview()}>
-        {ContactsDetailsButton} <LongArrow />
-      </button>
+      <ButtonForm text={ContactsDetailsButton} handleClick={handleClickReview} />
     </div>
   );
 }

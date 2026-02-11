@@ -13,27 +13,27 @@ const FooterConstants = [
     links: [
       {
         text: 'Runners',
-        link: '/',
+        link: '/catalog/runners',
       },
       {
         text: 'Sneakers',
-        link: '/',
+        link: '/catalog/sneakers',
       },
       {
         text: 'Basketball',
-        link: '/',
+        link: '/catalog/basketball',
       },
       {
         text: 'Outdoor',
-        link: '/',
+        link: '/catalog/outdoor',
       },
       {
         text: 'Golf',
-        link: '/',
+        link: '/catalog/golf',
       },
       {
         text: 'Hiking',
-        link: '/',
+        link: '/catalog/hiking',
       },
     ],
   },

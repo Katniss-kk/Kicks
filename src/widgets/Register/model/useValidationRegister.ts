@@ -1,14 +1,14 @@
-import type { IUserContacts } from '@/types/types';
+import type { IValidationRegisterProops } from '@/types/types';
 
-export default function useValidation(userData: IUserContacts) {
-  const { email, firstName, lastName, address, phone } = userData;
+export default function useValidationRegister(userData: IValidationRegisterProops) {
+  const { firstName, lastName, gender, email, pass, repPass } = userData;
 
   let errors = {
     email: false,
     firstName: false,
     lastName: false,
-    address: false,
-    phone: false,
+    gender: false,
+    password: false,
   };
 
   if (email && email.includes('@') && email.includes('.')) {
@@ -22,15 +22,12 @@ export default function useValidation(userData: IUserContacts) {
   if (lastName && lastName.trim().length >= 2) {
     errors.lastName = true;
   }
-
-  if (address && address.trim().length >= 5) {
-    errors.address = true;
+  if (gender && gender !== '') {
+    errors.gender = true;
   }
-
-  if (phone && phone.trim().length >= 10) {
-    errors.phone = true;
+  if (pass && pass.length > 7 && pass === repPass) {
+    errors.password = true;
   }
-
   return {
     errors,
     isValid: Object.values(errors).every((error) => error === true),

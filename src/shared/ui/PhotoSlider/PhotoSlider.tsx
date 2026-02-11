@@ -12,12 +12,16 @@ export default function PhotoSlider({ product }: IPhotoSlider) {
   const [swiperKey, setSwiperKey] = useState(0);
 
   useEffect(() => {
-    setSwiperKey((prev) => prev + 1);
+    const timeoutId = setTimeout(() => {
+      setSwiperKey((prev) => prev + 1);
+    }, 0);
 
     if (swiperRef.current) {
       swiperRef.current.destroy(true, true);
       swiperRef.current = null;
     }
+
+    return () => clearTimeout(timeoutId);
   }, [product.id, product.image.length]);
 
   return (

@@ -1,10 +1,11 @@
-import type { RootState} from '@/services/store';
+import type { RootState } from '@/services/store';
 import { useDispatch, useSelector } from '@/services/store';
 import { useEffect, useState, useMemo } from 'react';
 import useLockScroll from '@/libs/useScrollLocked';
 import { clearFilter } from '@/services/slices/FiltersSlice/FiltersSlice';
 import filtrationProduct from '@/libs/filtrationProduct';
 import type { IProduct } from '@/types/types';
+import { useParams } from 'react-router-dom';
 
 const PRODUCTS_PER_PAGE = 6;
 
@@ -13,16 +14,38 @@ export default function useCatalog() {
   const [modalContent, setModalContent] = useState<string>('');
   const products = useSelector((state: RootState) => state.Products.Products);
   const { sizes, colors, sort } = useSelector((state: RootState) => state.Filters);
-  const [filteredProducts, setFilteredProducts] = useState<IProduct[]>(products || []);
+  const [filteredProducts, setFilteredProducts] = useState<IProduct[]>([]);
+  const { id } = useParams();
 
   const [currentPage, setCurrentPage] = useState<number>(0);
-
   const dispatch = useDispatch();
 
   useEffect(() => {
-    setFilteredProducts(products || []);
-    setCurrentPage(0);
-  }, [products]);
+    const timeoutId = setTimeout(() => {
+      let result = products || [];
+
+      if (id !== undefined) {
+        if (id === 'new') {
+          result = result.filter((product) => {
+            const productDate = new Date(product.date);
+            const currentDate = new Date();
+
+            return (
+              productDate.getFullYear() === currentDate.getFullYear() &&
+              productDate.getMonth() === currentDate.getMonth()
+            );
+          });
+        } else {
+          result = result.filter((product) => product.category.toLowerCase() === id.toLowerCase());
+        }
+      }
+
+      setFilteredProducts(result);
+      setCurrentPage(0);
+    }, 0);
+
+    return () => clearTimeout(timeoutId);
+  }, [products, id]);
 
   const productsData = useMemo(() => {
     const startIndex = currentPage * PRODUCTS_PER_PAGE;
@@ -41,14 +64,23 @@ export default function useCatalog() {
 
   const handleClickReset = () => {
     dispatch(clearFilter());
-    setFilteredProducts(products || []);
+    let result = products || [];
+    if (id !== undefined) {
+      result = result.filter((product) => product.category.toLowerCase() === id.toLowerCase());
+    }
+    setFilteredProducts(result);
     setCurrentPage(0);
     onClose();
   };
 
   const handleClickApply = () => {
     if (products) {
-      const filtered = filtrationProduct({ sizes, colors, sort, products });
+      let result = products || [];
+      if (id !== undefined) {
+        result = result.filter((product) => product.category.toLowerCase() === id.toLowerCase());
+      }
+
+      const filtered = filtrationProduct({ sizes, colors, sort, products: result });
       if (filtered) {
         setFilteredProducts(filtered);
         setCurrentPage(0);
@@ -75,6 +107,7 @@ export default function useCatalog() {
   const showLastPage = pageCount > 1;
 
   return {
+    id,
     filteredProducts,
     productsData,
     handleClickFilterButton,

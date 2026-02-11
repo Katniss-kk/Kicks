@@ -1,15 +1,12 @@
 .baner {
+  position: relative;
   display: grid;
   align-items: end;
-  padding: 16px;
-  inline-size: 90%;
+  padding: 24px;
+  inline-size: 100%;
   min-block-size: 149px;
   margin-block-start: 48px;
   margin-block-end: 24px;
-  margin-inline: auto;
-  background-image: url('/public/images/catalogBanner.png');
-  background-repeat: no-repeat;
-  background-size: contain;
 }
 
 .textContainer {
@@ -36,4 +33,12 @@
 .title {
   font-weight: var(--font-weightSemiBold);
   font-size: 20px;
+}
+
+.image {
+  position: absolute;
+  z-index: -1;
+  inline-size: 100%;
+  block-size: 100%;
+  padding: 16px;
 }

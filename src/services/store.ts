@@ -4,11 +4,13 @@ import { useDispatch as dispatchHook, useSelector as selectorHook } from 'react-
 import { ProductsDataReducer } from './slices/ProductsDataSlice/ProductsDataSlice';
 import { FilterReducer } from './slices/FiltersSlice/FiltersSlice';
 import { BasketReducer } from './slices/BasketSlice/BasketSlice';
+import { RegisterReducer } from './slices/RegisterSlice/RegisterSlice';
 
 const rootReducer = {
   Products: ProductsDataReducer,
   Filters: FilterReducer,
   Basket: BasketReducer,
+  Register: RegisterReducer,
 };
 
 const store = configureStore({

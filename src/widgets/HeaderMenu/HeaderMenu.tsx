@@ -13,7 +13,7 @@ export default function HeaderMenu() {
       <button type="button" className={style.menuButton} onClick={() => onCloseModal()}>
         <HeaderMenuSvg />
       </button>
-      <Modal isOpen={modal} onClose={onCloseModal}>
+      <Modal isOpen={modal}>
         <ModalContent onCloseModal={onCloseModal} />
       </Modal>
     </div>

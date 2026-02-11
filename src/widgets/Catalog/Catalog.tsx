@@ -9,6 +9,7 @@ import Pagination from './model/Pagination';
 
 export default function Catalog() {
   const {
+    id,
     filteredProducts,
     productsData,
     handleClickFilterButton,
@@ -38,7 +39,9 @@ export default function Catalog() {
             />
           </div>
           <div>
-            <h2 className={style.title}>{CatalogConstants.CatalogInfo.title}</h2>
+            <h2 className={style.title}>
+              {id?.toUpperCase() || CatalogConstants.CatalogInfo.title}
+            </h2>
             <p className={style.items}>
               {products === null || products === undefined
                 ? CatalogConstants.CatalogInfo.error

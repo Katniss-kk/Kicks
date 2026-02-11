@@ -1,4 +1,4 @@
-import ProfileLink from '@shared/ui/Links/ProfileLink';
+import ProfileLink from '@/widgets/ProfileLink';
 import style from './Header.module.css';
 import BasketCounter from '@features/BasketCounter';
 import LogoLink from '@shared/ui/Links/LogoLink';
@@ -11,8 +11,10 @@ export default function Header() {
         <HeaderMenu />
         <LogoLink />
         <div className={style.userContainer}>
+          <div className={style.userInteractive}>
           <ProfileLink />
           <BasketCounter />
+          </div>
         </div>
       </div>
     </header>

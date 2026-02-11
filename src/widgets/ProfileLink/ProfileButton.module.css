@@ -1,0 +1,38 @@
+.containerProfileButton {
+  position: relative;
+}
+
+.button {
+  border: none;
+  background-color: transparent;
+  inline-size: 16px;
+  block-size: 16px;
+}
+
+.containerLinks {
+  display: grid;
+  gap: 10px;
+  padding-block-start: 26px;
+  padding-block-end: 12px;
+  padding-inline: 10px;
+}
+
+.modal {
+  background-color: var(--color-detailedWidgets);
+  position: absolute;
+  top: 22px;
+  right: -18px;
+  z-index: 4;
+  min-inline-size: 60px ;
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+}
+
+.buttonLogout {
+  border: none;
+  background-color: transparent;
+  font-family: var(--font-text);
+  font-weight: var(--font-weightRegular);
+  font-size: 12px;
+  color: var(--color-secondText);
+}

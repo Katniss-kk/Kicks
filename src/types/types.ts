@@ -8,6 +8,7 @@ export interface IProduct {
   colors: string[];
   date: string;
   sale: number;
+  category: string;
 }
 
 export interface IBasket {
@@ -30,4 +31,33 @@ export interface IValidation {
   lastName: boolean;
   address: boolean;
   phone: boolean;
+  gender?: boolean;
+  password?: boolean;
+}
+
+export interface IValidationRegister {
+  email: boolean;
+  firstName: boolean;
+  lastName: boolean;
+  gender: boolean;
+  password: boolean;
+}
+
+export interface IValidationRegisterProops {
+  email: string;
+  firstName: string;
+  lastName: string;
+  gender: string;
+  pass: string;
+  repPass: string;
+}
+
+export interface IUserData {
+  firstName: string;
+  lastName: string;
+  gender: string;
+  email: string;
+  pass: string;
+  address: string;
+  phone: string;
 }

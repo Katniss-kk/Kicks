@@ -15,8 +15,12 @@ export default function useCardProductsSelected() {
   const { id } = useParams();
 
   useEffect(() => {
-    setColorActive(null);
-    setSizeActive(null);
+    const timeoutId = setTimeout(() => {
+      setColorActive(null);
+      setSizeActive(null);
+    }, 0);
+
+    return () => clearTimeout(timeoutId);
   }, [id]);
 
   const products = useSelector((state: RootState) => state.Products.Products);
