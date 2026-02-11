@@ -13,7 +13,8 @@
     "sizes": [7, 7.5, 8, 8.5, 9, 9.5, 10, 10.5, 11, 12],
     "colors": ["White", "Black", "Grey"],
     "date": "2026-02-05",
-    "sale": 0
+    "sale": 0,
+    "category": "Sneakers"
   },
   {
     "id": 2,
@@ -29,7 +30,8 @@
     "sizes": [7, 8, 8.5, 9, 9.5, 10, 11, 12],
     "colors": ["Black", "White", "Blue"],
     "date": "2026-02-10",
-    "sale": 15
+    "sale": 15,
+    "category": "Runners"
   },
   {
     "id": 3,
@@ -45,7 +47,8 @@
     "sizes": [7.5, 8, 8.5, 9, 9.5, 10, 11, 12, 13],
     "colors": ["Black", "White", "Red"],
     "date": "2026-02-12",
-    "sale": 25
+    "sale": 25,
+    "category": "Basketball"
   },
   {
     "id": 4,
@@ -61,7 +64,8 @@
     "sizes": [7, 7.5, 8, 8.5, 9, 9.5, 10, 10.5, 11, 12],
     "colors": ["Grey", "Navy", "Black"],
     "date": "2026-02-08",
-    "sale": 0
+    "sale": 0,
+    "category": "Runners"
   },
   {
     "id": 5,
@@ -77,7 +81,8 @@
     "sizes": [7, 8, 9, 10, 11, 12],
     "colors": ["Black", "Red", "White"],
     "date": "2026-02-15",
-    "sale": 10
+    "sale": 10,
+    "category": "Sneakers"
   },
   {
     "id": 6,
@@ -93,7 +98,8 @@
     "sizes": [7, 7.5, 8, 8.5, 9, 9.5, 10, 11],
     "colors": ["Black", "White", "Red"],
     "date": "2026-02-18",
-    "sale": 0
+    "sale": 0,
+    "category": "Sneakers"
   },
   {
     "id": 7,
@@ -109,7 +115,8 @@
     "sizes": [7, 8, 8.5, 9, 9.5, 10, 11, 12],
     "colors": ["Black", "White", "Red"],
     "date": "2026-02-03",
-    "sale": 0
+    "sale": 0,
+    "category": "Sneakers"
   },
   {
     "id": 8,
@@ -125,7 +132,8 @@
     "sizes": [7.5, 8, 8.5, 9, 9.5, 10, 11, 12],
     "colors": ["White", "Black", "Grey"],
     "date": "2026-02-22",
-    "sale": 20
+    "sale": 20,
+    "category": "Sneakers"
   },
   {
     "id": 9,
@@ -141,7 +149,8 @@
     "sizes": [8, 8.5, 9, 9.5, 10, 10.5, 11, 12],
     "colors": ["Silver", "Black", "White"],
     "date": "2026-02-25",
-    "sale": 0
+    "sale": 0,
+    "category": "Runners"
   },
   {
     "id": 10,
@@ -157,7 +166,8 @@
     "sizes": [7, 8, 9, 10, 11, 12],
     "colors": ["White", "Black", "Navy"],
     "date": "2026-02-28",
-    "sale": 30
+    "sale": 30,
+    "category": "Sneakers"
   },
   {
     "id": 11,
@@ -173,7 +183,8 @@
     "sizes": [7, 7.5, 8, 8.5, 9, 9.5, 10, 11],
     "colors": ["Black", "White", "Blue"],
     "date": "2026-02-01",
-    "sale": 0
+    "sale": 0,
+    "category": "Sneakers"
   },
   {
     "id": 12,
@@ -189,7 +200,8 @@
     "sizes": [7, 8, 8.5, 9, 9.5, 10, 11, 12],
     "colors": ["Black", "White", "Red"],
     "date": "2026-02-14",
-    "sale": 0
+    "sale": 0,
+    "category": "Sneakers"
   },
   {
     "id": 13,
@@ -205,7 +217,8 @@
     "sizes": [7.5, 8, 8.5, 9, 9.5, 10, 11, 12],
     "colors": ["Black", "White", "Grey"],
     "date": "2025-01-20",
-    "sale": 5
+    "sale": 5,
+    "category": "Runners"
   },
   {
     "id": 14,
@@ -221,7 +234,8 @@
     "sizes": [7, 8, 9, 10, 11],
     "colors": ["Grey", "Black", "White"],
     "date": "2025-03-15",
-    "sale": 0
+    "sale": 0,
+    "category": "Runners"
   },
   {
     "id": 15,
@@ -237,7 +251,8 @@
     "sizes": [7, 8, 8.5, 9, 9.5, 10, 11, 12],
     "colors": ["White", "Black", "Brown"],
     "date": "2025-05-10",
-    "sale": 0
+    "sale": 0,
+    "category": "Sneakers"
   },
   {
     "id": 16,
@@ -253,7 +268,8 @@
     "sizes": [7.5, 8, 8.5, 9, 9.5, 10, 11, 12, 13],
     "colors": ["Red", "Black", "White"],
     "date": "2025-07-30",
-    "sale": 0
+    "sale": 0,
+    "category": "Basketball"
   },
   {
     "id": 17,
@@ -269,7 +285,8 @@
     "sizes": [7, 8, 8.5, 9, 9.5, 10, 11, 12],
     "colors": ["White", "Green", "Grey"],
     "date": "2025-09-22",
-    "sale": 0
+    "sale": 0,
+    "category": "Sneakers"
   },
   {
     "id": 18,
@@ -285,7 +302,8 @@
     "sizes": [7, 7.5, 8, 8.5, 9, 9.5, 10, 11, 12],
     "colors": ["White", "Black", "Grey"],
     "date": "2025-11-05",
-    "sale": 0
+    "sale": 0,
+    "category": "Sneakers"
   },
   {
     "id": 19,
@@ -301,7 +319,8 @@
     "sizes": [7.5, 8, 8.5, 9, 9.5, 10, 11, 12],
     "colors": ["Black", "White", "Red"],
     "date": "2025-12-18",
-    "sale": 0
+    "sale": 0,
+    "category": "Runners"
   },
   {
     "id": 20,
@@ -317,7 +336,8 @@
     "sizes": [7, 8, 9, 10, 11],
     "colors": ["White", "Black", "Red"],
     "date": "2026-01-25",
-    "sale": 0
+    "sale": 0,
+    "category": "Sneakers"
   },
   {
     "id": 21,
@@ -333,7 +353,8 @@
     "sizes": [7, 8, 9, 10, 11, 12],
     "colors": ["Black", "Grey", "Navy"],
     "date": "2026-02-07",
-    "sale": 0
+    "sale": 0,
+    "category": "Hiking"
   },
   {
     "id": 22,
@@ -349,7 +370,8 @@
     "sizes": [7.5, 8, 8.5, 9, 10, 11],
     "colors": ["White", "Black", "Red"],
     "date": "2025-04-12",
-    "sale": 0
+    "sale": 0,
+    "category": "Runners"
   },
   {
     "id": 23,
@@ -365,7 +387,8 @@
     "sizes": [7, 8, 9, 10, 11, 12],
     "colors": ["Blue", "White", "Black"],
     "date": "2026-02-19",
-    "sale": 0
+    "sale": 0,
+    "category": "Runners"
   },
   {
     "id": 24,
@@ -381,7 +404,8 @@
     "sizes": [7, 7.5, 8, 8.5, 9, 10],
     "colors": ["Green", "White", "Black"],
     "date": "2025-08-14",
-    "sale": 0
+    "sale": 0,
+    "category": "Sneakers"
   },
   {
     "id": 25,
@@ -397,7 +421,8 @@
     "sizes": [7, 8, 9, 10, 11, 12],
     "colors": ["Grey", "Blue", "White"],
     "date": "2026-02-11",
-    "sale": 0
+    "sale": 0,
+    "category": "Runners"
   },
   {
     "id": 26,
@@ -413,7 +438,8 @@
     "sizes": [7.5, 8, 8.5, 9, 10, 11],
     "colors": ["White", "Black", "Orange"],
     "date": "2025-06-22",
-    "sale": 0
+    "sale": 0,
+    "category": "Runners"
   },
   {
     "id": 27,
@@ -429,7 +455,8 @@
     "sizes": [7, 8, 9, 10, 11, 12],
     "colors": ["Black", "Red", "White"],
     "date": "2026-02-04",
-    "sale": 0
+    "sale": 0,
+    "category": "Golf"
   },
   {
     "id": 28,
@@ -445,7 +472,8 @@
     "sizes": [7, 8, 9, 10, 11],
     "colors": ["White", "Blue", "Grey"],
     "date": "2025-10-30",
-    "sale": 0
+    "sale": 0,
+    "category": "Runners"
   },
   {
     "id": 29,
@@ -461,7 +489,8 @@
     "sizes": [7, 7.5, 8, 8.5, 9, 10, 11],
     "colors": ["White", "Green", "Black"],
     "date": "2026-02-16",
-    "sale": 0
+    "sale": 0,
+    "category": "Golf"
   },
   {
     "id": 30,
@@ -477,7 +506,8 @@
     "sizes": [7, 8, 9, 10, 11, 12],
     "colors": ["Black", "White", "Red"],
     "date": "2025-07-05",
-    "sale": 0
+    "sale": 0,
+    "category": "Sneakers"
   },
   {
     "id": 31,
@@ -493,7 +523,8 @@
     "sizes": [7.5, 8, 8.5, 9, 10, 11, 12],
     "colors": ["Silver", "White", "Black"],
     "date": "2026-02-23",
-    "sale": 0
+    "sale": 0,
+    "category": "Sneakers"
   },
   {
     "id": 32,
@@ -509,7 +540,8 @@
     "sizes": [7, 8, 9, 10, 11],
     "colors": ["Black", "Red", "Blue"],
     "date": "2025-11-18",
-    "sale": 0
+    "sale": 0,
+    "category": "Hiking"
   },
   {
     "id": 33,
@@ -525,7 +557,8 @@
     "sizes": [7, 8, 9, 10, 11, 12],
     "colors": ["White", "Black", "Green"],
     "date": "2026-02-09",
-    "sale": 0
+    "sale": 0,
+    "category": "Runners"
   },
   {
     "id": 34,
@@ -541,7 +574,8 @@
     "sizes": [7, 8, 9, 10, 11, 12],
     "colors": ["Blue", "White", "Grey"],
     "date": "2025-09-05",
-    "sale": 0
+    "sale": 0,
+    "category": "Runners"
   },
   {
     "id": 35,
@@ -557,7 +591,8 @@
     "sizes": [7, 7.5, 8, 8.5, 9, 10, 11],
     "colors": ["Black", "White", "Blue"],
     "date": "2026-02-26",
-    "sale": 0
+    "sale": 0,
+    "category": "Sneakers"
   },
   {
     "id": 36,
@@ -573,7 +608,8 @@
     "sizes": [7.5, 8, 8.5, 9, 10, 11],
     "colors": ["Yellow", "Black", "White"],
     "date": "2025-12-03",
-    "sale": 0
+    "sale": 0,
+    "category": "Runners"
   },
   {
     "id": 37,
@@ -589,7 +625,8 @@
     "sizes": [7, 8, 9, 10, 11, 12],
     "colors": ["Grey", "White", "Black"],
     "date": "2026-02-13",
-    "sale": 18
+    "sale": 18,
+    "category": "Runners"
   },
   {
     "id": 38,
@@ -605,7 +642,8 @@
     "sizes": [7, 8, 9, 10, 11, 12],
     "colors": ["Black", "White", "Red"],
     "date": "2025-04-25",
-    "sale": 0
+    "sale": 0,
+    "category": "Sneakers"
   },
   {
     "id": 39,
@@ -621,7 +659,8 @@
     "sizes": [7, 8, 9, 10, 11],
     "colors": ["White", "Black", "Brown"],
     "date": "2026-02-20",
-    "sale": 12
+    "sale": 12,
+    "category": "Hiking"
   },
   {
     "id": 40,
@@ -637,6 +676,7 @@
     "sizes": [7, 7.5, 8, 8.5, 9, 10, 11],
     "colors": ["Navy", "White", "Red"],
     "date": "2025-08-08",
-    "sale": 0
+    "sale": 0,
+    "category": "Sneakers"
   }
 ]
