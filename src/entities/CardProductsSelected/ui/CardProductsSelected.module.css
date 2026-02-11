@@ -10,9 +10,6 @@
   inline-size: max-content;
 }
 
-.cardContainer {
-}
-
 .textContainer {
   display: grid;
   gap: 8px;
@@ -55,6 +52,7 @@
   border-radius: 100px;
   inline-size: 21px;
   block-size: 21px;
+  cursor: pointer;
 }
 
 .spanButtonColor {

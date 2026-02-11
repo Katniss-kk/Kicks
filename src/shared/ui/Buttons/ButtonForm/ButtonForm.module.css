@@ -13,4 +13,5 @@
   font-size: 14px;
   color: var(--color-mainText);
   text-transform: uppercase;
+  cursor: pointer;
 }

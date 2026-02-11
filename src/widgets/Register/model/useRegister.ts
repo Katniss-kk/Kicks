@@ -5,7 +5,7 @@ import type { IUserData, IValidationRegister } from '@/types/types';
 import { useNavigate } from 'react-router-dom';
 import { useDispatch } from '@/services/store';
 import { registerUser } from '@/services/slices/RegisterSlice/RegisterSlice';
-import { loadUserFromStorage } from '@/services/slices/BasketSlice/BasketSlice';
+import { loadingUserFromStorage } from '@/services/slices/ProfileSlice/ProfileSlice';
 
 export default function useRegister() {
   const [firstName, setFirstName] = useState<string>('');
@@ -64,6 +64,7 @@ export default function useRegister() {
     e.preventDefault();
 
     const userData: IUserData = {
+      avatar: '',
       firstName,
       lastName,
       gender,
@@ -78,7 +79,7 @@ export default function useRegister() {
 
       try {
         await dispatch(registerUser(userData)).unwrap();
-        dispatch(loadUserFromStorage());
+        dispatch(loadingUserFromStorage());
         navigate('/');
       } catch (error) {
         console.error('Registration failed:', error);

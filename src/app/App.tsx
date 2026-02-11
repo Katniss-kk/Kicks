@@ -11,17 +11,18 @@ import ProductSelectedPage from '@/pages/ProductSelectedPage';
 import BasketPage from '@/pages/BasketPage';
 import CheckoutPage from '@/pages/CheckoutPage';
 import ProtectedRoute from './ProtectedRoute/ProtectedRoute';
-import { loadUserFromStorage } from '@/services/slices/BasketSlice/BasketSlice';
+import { loadingUserFromStorage } from '@/services/slices/ProfileSlice/ProfileSlice';
 
 const LoginPage = lazy(() => import('@/pages/LoginPage'));
 const RegisterPage = lazy(() => import('@/pages/RegisterPage'));
+const ProfilePage = lazy(() => import('@/pages/ProfilePage'))
 
 export default function App() {
   const dispatch = useDispatch();
 
   useEffect(() => {
     dispatch(setData());
-    dispatch(loadUserFromStorage());
+    dispatch(loadingUserFromStorage());
   }, [dispatch]);
 
   return (
@@ -43,6 +44,14 @@ export default function App() {
           />
           <Route path="/login" element={<LoginPage />} />
           <Route path="/register" element={<RegisterPage />} />
+          <Route
+            path="/profile"
+            element={
+              <ProtectedRoute>
+                <ProfilePage />
+              </ProtectedRoute>
+            }
+          />
         </Route>
       </Routes>
     </Router>

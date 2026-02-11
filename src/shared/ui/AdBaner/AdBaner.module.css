@@ -45,8 +45,10 @@
   block-size: max-content;
   align-self: flex-end;
   display: grid;
+  justify-content: space-between;
   grid-auto-flow: column;
   padding-block-end: 16px;
+  inline-size: 100%;
 }
 
 .span {

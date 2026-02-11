@@ -53,6 +53,7 @@ export interface IValidationRegisterProops {
 }
 
 export interface IUserData {
+  avatar: string;
   firstName: string;
   lastName: string;
   gender: string;

@@ -6,6 +6,7 @@
 
 .textContainer {
   display: grid;
+  justify-content: space-between;
   gap: 29px;
   grid-auto-flow: column;
   margin-block-end: 24px;

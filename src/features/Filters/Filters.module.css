@@ -60,6 +60,7 @@
 .buttonFilterSize {
   background-color: var(--color-mainText);
   color: var(--color-secondText);
+  cursor: pointer;
 }
 
 .buttonSizeActive {

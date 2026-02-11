@@ -5,12 +5,14 @@ import { ProductsDataReducer } from './slices/ProductsDataSlice/ProductsDataSlic
 import { FilterReducer } from './slices/FiltersSlice/FiltersSlice';
 import { BasketReducer } from './slices/BasketSlice/BasketSlice';
 import { RegisterReducer } from './slices/RegisterSlice/RegisterSlice';
+import { ProfileReducer } from './slices/ProfileSlice/ProfileSlice';
 
 const rootReducer = {
   Products: ProductsDataReducer,
   Filters: FilterReducer,
   Basket: BasketReducer,
   Register: RegisterReducer,
+  Profile: ProfileReducer,
 };
 
 const store = configureStore({

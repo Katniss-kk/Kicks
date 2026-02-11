@@ -6,7 +6,7 @@ import type React from 'react';
 import { useState } from 'react';
 
 export default function useConstactsDetails() {
-  const userData = useSelector((state: RootState) => state.Basket.user);
+  const userData = useSelector((state: RootState) => state.Profile.user);
   const [email, setEmail] = useState<string>(userData?.email || '');
   const [firstName, setFirstName] = useState<string>(userData?.firstName || '');
   const [lastName, setLastName] = useState<string>(userData?.lastName || '');

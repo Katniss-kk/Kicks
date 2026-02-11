@@ -1,15 +1,16 @@
 .button {
-    border: none;
-    background-color: transparent;
-    display: grid;
-    grid-auto-flow: column;
-    gap: 16px;
-    justify-content: flex-start;
-    align-items: center;
-    font-family: var(--font-text);
-    font-weight: var(--font-weightSemiBold);
-    font-size: 16px;
-    color: var(--color-secondText);
+  border: none;
+  background-color: transparent;
+  display: grid;
+  grid-auto-flow: column;
+  gap: 16px;
+  justify-content: flex-start;
+  align-items: center;
+  font-family: var(--font-text);
+  font-weight: var(--font-weightSemiBold);
+  font-size: 16px;
+  color: var(--color-secondText);
+  cursor: pointer;
 }
 
 .fill {

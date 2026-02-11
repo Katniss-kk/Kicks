@@ -1,0 +1,37 @@
+.profileContainer {
+    display: grid;
+    gap: 24px;
+    inline-size: 100%;
+}
+
+.containerBlock {
+    display: grid;
+    gap: 16px;
+}
+
+.containerGender {
+    display: grid;
+    grid-auto-flow: column;
+    gap: 16px;
+}
+
+.avatar {
+    inline-size: 100%;
+    block-size: 350px;
+    border-radius: 30px;
+}
+
+.title {
+    font-family: var(--font-text);
+    font-weight: var(--font-weightSemiBold);
+    font-size: 24px;
+    color: var(--color-secondText);
+}
+
+.validation {
+    font-family: var(--font-text);
+    font-weight: var(--font-weightRegular);
+    font-size: 12px;
+    color: rgb(200, 0, 0);
+    padding-inline: 10px;
+}

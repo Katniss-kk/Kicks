@@ -1,7 +1,8 @@
 .button {
-    border: none;
-    border-radius: 8px;
-    min-inline-size: 32px;
-    min-block-size: 32px;
-    text-align: center;
+  border: none;
+  border-radius: 8px;
+  min-inline-size: 32px;
+  min-block-size: 32px;
+  text-align: center;
+  cursor: pointer;
 }

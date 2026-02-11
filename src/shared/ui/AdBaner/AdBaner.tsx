@@ -17,7 +17,7 @@ export default function AdBaner() {
             <div className={style.mainTextContainer}>
               <h2 className={style.brandName}>{TextBanner.brand}</h2>
               <p className={style.aboutBrand}>{TextBanner.about}</p>
-              <LinkCatalog title={TextBanner.link} link="/" /> {/* доделать линк в константу*/}
+              <LinkCatalog title={TextBanner.link} link="/catalog/new" /> 
             </div>
             <div className={style.secondImageContainer}>
               <img src={ImgBanner[1].image} alt={ImgBanner[1].alt} />

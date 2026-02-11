@@ -1,13 +1,14 @@
-import { clearBasket, clearUser } from '@/services/slices/BasketSlice/BasketSlice';
+import { clearBasket } from '@/services/slices/BasketSlice/BasketSlice';
+import { clearUser } from '@/services/slices/ProfileSlice/ProfileSlice';
 import { logout } from '@/services/slices/RegisterSlice/RegisterSlice';
-import type { RootState} from '@/services/store';
+import type { RootState } from '@/services/store';
 import { useDispatch, useSelector } from '@/services/store';
 import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 
 export default function useProfileButton() {
   const [openModal, setOpenModal] = useState<boolean>(false);
-  const user = useSelector((state: RootState) => state.Basket.user);
+  const user = useSelector((state: RootState) => state.Profile.user);
 
   const navigate = useNavigate();
   const dispatch = useDispatch();

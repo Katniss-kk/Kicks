@@ -67,9 +67,10 @@
 }
 
 .buttonDelete {
-    border: none;
-    background-color: transparent;
-    inline-size: max-content;
-    block-size: max-content;
-    padding: 0;
+  border: none;
+  background-color: transparent;
+  inline-size: max-content;
+  block-size: max-content;
+  padding: 0;
+  cursor: pointer;
 }
