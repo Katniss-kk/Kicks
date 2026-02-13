@@ -7,12 +7,17 @@ import useHeaderMenu from './model/useHeaderMenu';
 import { useClickOutside } from '@/libs/useClickOutside';
 
 export default function HeaderMenu() {
-  const { onCloseModal, modal } = useHeaderMenu();
+  const { onCloseModal, modal, isDesktop } = useHeaderMenu();
+  console.log(isDesktop);
   return (
     <div className={style.headerMenuContainer}>
-      <button type="button" className={style.menuButton} onClick={() => onCloseModal()}>
-        <HeaderMenuSvg />
-      </button>
+      {isDesktop ? (
+        <ModalContent />
+      ) : (
+        <button type="button" className={style.menuButton} onClick={() => onCloseModal()}>
+          <HeaderMenuSvg />
+        </button>
+      )}
       <Modal isOpen={modal}>
         <ModalContent onCloseModal={onCloseModal} />
       </Modal>
@@ -20,17 +25,17 @@ export default function HeaderMenu() {
   );
 }
 
-const ModalContent = ({ onCloseModal }: { onCloseModal: () => void }) => {
-  const modalRef = useClickOutside(onCloseModal, true);
+const ModalContent = ({ onCloseModal }: { onCloseModal?: () => void }) => {
+  const modalRef = useClickOutside(onCloseModal || (() => {}), true);
 
   return (
-    <div ref={modalRef} className={style.containerLinks}>
+    <div ref={onCloseModal ? modalRef : null} className={style.containerLinks}>
       {Links.map((link) => (
         <NavLink
           to={link.link}
           className={style.link}
           key={link.link}
-          onClick={() => onCloseModal()}
+          onClick={() => onCloseModal?.()}
         >
           {link.title}
         </NavLink>

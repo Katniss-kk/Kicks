@@ -2,7 +2,6 @@ import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import HomePage from '@/pages/HomePage/HomePage';
 import Layout from '@/layout/Layout';
 import '@shared/assets/styles/global.css';
-import '@shared/assets/styles/colors.css';
 import CatalogPage from '@/pages/CatalogPage';
 import { useDispatch } from '@/services/store';
 import { lazy, useEffect } from 'react';

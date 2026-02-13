@@ -6,9 +6,13 @@ import ContactsDetails from '@/features/ContactsDetails';
 export default function CheckoutPage() {
   return (
     <section className={style.checkout}>
-      <CardsProductsBasket />
-      <OrderBasket button={false}/>
+      <div className={style.checkoutContainer}>
+        <CardsProductsBasket />
+        <OrderBasket button={false} />
+      </div>
+      <div className={style.contactsContainer}>
       <ContactsDetails />
+      </div>
     </section>
   );
 }

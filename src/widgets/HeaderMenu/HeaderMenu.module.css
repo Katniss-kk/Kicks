@@ -10,7 +10,7 @@
 
 .containerLinks {
   display: grid;
-  gap: 10px;
+  gap: 16px;
   padding-block-start: 26px;
   padding-block-end: 12px;
   padding-inline: 10px;
@@ -19,6 +19,19 @@
 .link {
   font-family: var(--font-text);
   font-weight: var(--font-weightSemiBold);
-  font-size: 10px;
+  font-size: 16px;
   color: var(--color-secondText);
+  text-align: start;
+}
+
+@media (width >= 1280px) {
+  .containerLinks {
+    grid-template-columns: repeat(2, max-content);
+    align-items: end;
+    gap: 40px;
+    padding-block: 0;
+  }
+  .link {
+    inline-size: max-content;
+  }
 }

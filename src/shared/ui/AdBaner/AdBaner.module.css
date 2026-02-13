@@ -6,7 +6,8 @@
 .textTitle {
   font-family: var(--font-text);
   font-weight: var(--font-weightBold);
-  font-size: 59px;
+  font-size: clamp(60px, 15vw, 223px);
+  white-space: nowrap;
   color: var(--color-secondText);
   text-transform: uppercase;
   text-align: center;
@@ -21,8 +22,7 @@
 .container {
   position: relative;
   block-size: 100vh;
-  max-block-size: 382px;
-  min-height: 100%;
+  block-size: clamp(382px, 80vw, 750px);
   inline-size: 100%;
 }
 
@@ -31,12 +31,14 @@
   z-index: -1;
   inline-size: 100%;
   block-size: 100%;
+  object-fit: cover;
+  border-radius: 24px;
 }
 
 .contentContainer {
   position: relative;
   block-size: 100%;
-  padding-inline: 16px;
+  padding: 16px;
   display: grid;
   justify-items: start;
 }
@@ -45,9 +47,9 @@
   block-size: max-content;
   align-self: flex-end;
   display: grid;
-  justify-content: space-between;
-  grid-auto-flow: column;
-  padding-block-end: 16px;
+  grid-template-columns: 1fr max-content;
+  align-items: flex-end;
+  gap: 27px;
   inline-size: 100%;
 }
 
@@ -68,23 +70,50 @@
 
 .mainTextContainer {
   display: grid;
-  align-items: flex-end;
+  grid-template-rows: repeat(3, max-content);
+  gap: 8px;
+  max-block-size: max-content;
+  max-inline-size: 490px;
 }
 
 .secondImageContainer {
+  justify-self: flex-end;
   display: grid;
+  gap: 8px;
+}
+
+.secondImg {
+  inline-size: clamp(64px, 11vw, 220px);
+  block-size: 100%;
 }
 
 .brandName {
   font-family: var(--font-text);
   font-weight: var(--font-weightSemiBold);
-  font-size: 24px;
+  font-size: clamp(24px, 5vw, 74px);
   color: var(--color-mainText);
 }
 
 .aboutBrand {
   font-family: var(--font-text);
   font-weight: var(--font-weightSemiBold);
-  font-size: 14px;
   color: var(--color-text);
+}
+
+@media (width >= 1280px) {
+  .container {
+    min-block-size: 750px;
+  }
+  .adBaner {
+    padding-inline: 60px;
+  }
+  .secondImageContainer {
+    gap: 16px;
+  }
+  .contentContainer {
+    padding: 32px;
+  }
+  .aboutBrand {
+    font-size: 24px;
+  }
 }

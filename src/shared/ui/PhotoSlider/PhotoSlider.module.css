@@ -1,29 +1,43 @@
 .container {
-    inline-size: 100%;
+  inline-size: 100%;
 }
 
 .containerSwiper {
-    inline-size: 100%;
+  inline-size: 100%;
 }
 
 .customSwiper {
-    inline-size: 100%;
+  inline-size: 100%;
 }
 
 .imgSlider {
-    inline-size: 100%;
-    block-size: 273px;
-    object-fit: cover;
+  inline-size: 100%;
+  block-size: 60vw;
+  object-fit: cover;
 }
 
 .photoContainer {
-    inline-size: 100%;
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    gap: 8px;
-    margin-block: 24px;
+  inline-size: 100%;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 8px;
+  margin-block: 24px;
 }
 
 .photo {
-    inline-size: 100%;
+  inline-size: 100%;
+  block-size: 100%;
+}
+
+@media (width >= 1280px) {
+  .containerSwiper {
+    display: none;
+  }
+  .photoContainer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 16px;
+    margin: 0;
+  }
 }

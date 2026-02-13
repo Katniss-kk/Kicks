@@ -113,3 +113,14 @@
 .validation {
   color: rgb(200, 0, 0);
 }
+
+@media (width >= 1280px) {
+  .cardContainer {
+    display: grid;
+    grid-auto-flow: column;
+    gap: 16px;
+  }
+  .title {
+    font-size: 32px;
+  }
+}

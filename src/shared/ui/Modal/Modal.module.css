@@ -5,6 +5,7 @@
   left: -18px;
   z-index: 4;
   inline-size: max-content;
+  block-size: max-content;
   border-bottom-left-radius: 12px;
   border-bottom-right-radius: 12px;
 }

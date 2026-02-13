@@ -18,7 +18,7 @@
   inline-size: 100%;
   min-block-size: 150px;
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: max-content 1fr;
   gap: 16px;
 }
 
@@ -57,12 +57,15 @@
 
 .aboutText {
   font-size: 14px;
+  font-weight: var(--font-weightRegular);
 }
 
 .cardPhoto {
   inline-size: 100%;
   block-size: 100%;
-  object-fit: cover;
+  max-inline-size: 208px;
+  max-block-size: 225px;
+  object-fit: contain;
   border-radius: 24px;
 }
 
@@ -73,4 +76,41 @@
   block-size: max-content;
   padding: 0;
   cursor: pointer;
+}
+
+@media(width>= 1280px) {
+  .basketContainer {
+    padding: 24px;
+  }
+
+  .cardTextContainer {
+    grid-template-columns: 1fr max-content;
+    grid-template-rows: repeat(4, 1fr);
+    gap: 0;
+  }
+  .price {
+    grid-column: 2;
+    grid-row: 1/4;
+  }
+  .buttonDelete {
+    grid-column: 1;
+    grid-row: 4/6;
+    align-self: flex-end;
+  }
+
+  .titleCards {
+    font-size: 32px;
+  }
+
+  .paragraph {
+    font-size: 16px;
+  }
+
+  .aboutText {
+    font-size: 20px;
+  }
+
+  .title {
+    font-size: 24px;
+  }
 }

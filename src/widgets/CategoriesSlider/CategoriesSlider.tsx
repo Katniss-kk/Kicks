@@ -40,10 +40,10 @@ export default function CategoriesSlider() {
           swiperRef.current = swiper;
         }}
       >
-        {categories.map((category, index) => (
-          <SwiperSlide key={category.link}>
-            <CardCategories category={category} />
-            <CardCategories category={categories[index + 1] || categories[0]} />
+        {Array.from({ length: Math.ceil(categories.length / 2) }).map((_, index) => (
+          <SwiperSlide key={index} className={style.customSlider}>
+            <CardCategories category={categories[index * 2]} />
+            {categories[index * 2 + 1] && <CardCategories category={categories[index * 2 + 1]} />}
           </SwiperSlide>
         ))}
       </Swiper>

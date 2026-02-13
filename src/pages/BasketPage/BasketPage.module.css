@@ -1,7 +1,21 @@
 .basket {
-  display: grid;
-  gap: 24px;
   margin-block: 48px;
   padding-inline: 16px;
   background-color: var(--color-text);
+}
+
+.containerBasket {
+  display: grid;
+  gap: 24px;
+}
+
+@media (width>=768px) {
+  .basket {
+    padding-inline: 60px;
+  }
+
+  .containerBasket {
+    grid-template-columns: 2fr 1fr;
+    gap: 47;
+  }
 }

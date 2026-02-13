@@ -32,10 +32,10 @@ export default function CardsProductsBasket() {
             <h3 className={clsx(style.text, style.title)}>
               {product.product.brand} {product.product.model}
             </h3>
-            <h6 className={clsx(style.text, style.aboutText)}>{product.color}</h6>
-            <h6 className={clsx(style.text, style.aboutText)}>
+            <p className={clsx(style.text, style.aboutText)}>{product.color}</p>
+            <p className={clsx(style.text, style.aboutText)}>
               {CardsProductsBasketConstant.size} {product.size}
-            </h6>
+            </p>
             <span className={style.price}>
               {CardsProductsBasketConstant.value}
               {product.product.price}

@@ -41,3 +41,20 @@
 .customSwiper {
   inline-size: 100%;
 }
+
+@media(width >= 1280px) {
+  .customSlider {
+    display: grid;
+    grid-auto-flow: column;
+  }
+  .sliderContainer {
+    padding-inline-start: 60px;
+    padding-inline-end: 0;
+  }
+  .container {
+    padding-inline-end: 60px;
+  }
+  .title {
+    font-size: 74px;
+  }
+}

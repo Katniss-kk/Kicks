@@ -4,6 +4,7 @@ import useProfileButton from './model/useProfileButton';
 import Modal from '@/shared/ui/Modal';
 import { useClickOutside } from '@/libs/useClickOutside';
 import { NavLink } from 'react-router-dom';
+import ProfileButtonConstant from './libs/ProfileButtonConstant';
 
 export default function ProfileButton() {
   const { handleClickButton, openModal, onCloseModal, handleClickLogout } = useProfileButton();
@@ -31,10 +32,10 @@ const ModalContent = ({
   return (
     <div ref={modalRef} className={style.containerLinks}>
       <NavLink to={'/profile'} className={style.buttonMenu}>
-        Profile
+        {ProfileButtonConstant.profile}
       </NavLink>
       <button className={style.buttonMenu} onClick={() => handleClickLogout()}>
-        Logout
+        {ProfileButtonConstant.logout}
       </button>
     </div>
   );

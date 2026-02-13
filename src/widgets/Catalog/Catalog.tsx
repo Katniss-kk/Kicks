@@ -50,12 +50,18 @@ export default function Catalog() {
                   : `${filteredProducts.length} ${CatalogConstants.CatalogInfo.products}`}
             </p>
           </div>
-          <div className={style.productsContainer}>
-            {productsData.map((product) => (
-              <div key={product.id}>
-                <CardProduct product={product} />
-              </div>
-            ))}
+          <div className={style.desktopContainer}>
+            <div className={style.desktopFiltersContainer}>
+              <Filters content={CatalogConstants.FiltersButtons[0].name} />
+              <Filters content={CatalogConstants.FiltersButtons[1].name} />
+            </div>
+            <div className={style.productsContainer}>
+              {productsData.map((product) => (
+                <div key={product.id}>
+                  <CardProduct product={product} />
+                </div>
+              ))}
+            </div>
           </div>
 
           <Pagination pagination={pagination} />

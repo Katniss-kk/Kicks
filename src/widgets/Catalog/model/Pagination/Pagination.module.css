@@ -1,6 +1,6 @@
 .containerPagination {
-  display: grid;
-  grid-auto-flow: column;
+  display: flex;
+  justify-content: center;
   gap: 16px;
   align-items: center;
   margin-block-end: 24px;
@@ -15,6 +15,7 @@
   border-radius: 8px;
   block-size: 32px;
   min-inline-size: 39px;
+  inline-size: max-content;
   font-family: var(--font-text);
   font-weight: var(--fonte-weightMedium);
   font-size: 14px;
@@ -33,4 +34,9 @@
 
 .disabled {
     opacity: 0.5;
+}
+
+@media (width>=1280px) {
+  .containerPagination {
+  }
 }

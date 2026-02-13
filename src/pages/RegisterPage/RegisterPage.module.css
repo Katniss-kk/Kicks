@@ -5,3 +5,16 @@
   padding-inline: 16px;
   background-color: var(--color-text);
 }
+
+@media (width >= 1280px) {
+  .register {
+    padding-block-start: 50px;
+    padding-block-end: 150px;
+    padding-inline: 400px;
+  }
+  .registerContainer {
+    padding: 60px;
+    background-color: var(--color-detailedWidgets);
+    border-radius: 32px;
+  }
+}

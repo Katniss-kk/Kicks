@@ -10,8 +10,14 @@
   margin-block-start: -20px;
 }
 
+.footerContent {
+  display: grid;
+  gap: 30px;
+}
+
 .container {
   display: grid;
+  grid-template-rows: repeat(2, max-content);
   gap: 16px;
 }
 
@@ -20,6 +26,7 @@
   font-weight: var(--font-weightSemiBold);
   font-size: 24px;
   color: var(--color-basketCounter);
+  block-size: max-content;
 }
 
 .linkContainer {
@@ -35,4 +42,19 @@
 }
 
 .logo {
+}
+
+@media (width >= 1280px) {
+  .footer {
+    padding-inline: 48px;
+  }
+
+  .footerContent {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0;
+  }
+  .container:nth-child(2),
+  .container:nth-child(3) {
+    justify-self: center;
+  }
 }

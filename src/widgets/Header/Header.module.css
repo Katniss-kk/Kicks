@@ -5,8 +5,8 @@
 
 .headerContainer {
   position: fixed;
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
   padding-inline: 18px;
   padding-block: 20px;
   border-radius: 12px;
@@ -17,15 +17,40 @@
   margin-block-start: 15px;
 }
 
-.userInteractive {
-  position: relative;
-  display: flex;
-  align-items: center;
-  gap: 9px;
+.logoContainer {
+  max-inline-size: 80px;
+  max-block-size: 20px;
+  display: grid;
+  justify-self: center;
 }
 
 .userContainer {
-  display: flex;
+  position: relative;
+  display: grid;
+  grid-auto-flow: column;
   align-items: center;
+  justify-content: flex-end;
   gap: 9px;
+}
+
+@media (width >= 1280px) {
+  .header {
+    padding-block: 20px;
+    padding-inline: 60px;
+  }
+
+  .logoContainer {
+    min-inline-size: 128px;
+    min-block-size: 32px;
+  }
+
+  .headerContainer {
+    position: inherit;
+    margin: 0;
+    padding-inline: 32px;
+  }
+
+  .userContainer {
+    gap: 40px;
+  }
 }

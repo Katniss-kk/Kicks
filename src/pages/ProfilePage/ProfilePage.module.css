@@ -5,3 +5,9 @@
   padding-inline: 16px;
   background-color: var(--color-text);
 }
+
+@media (width >= 1280px) {
+  .profile {
+    padding-inline: 60px;
+  }
+}

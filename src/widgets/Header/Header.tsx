@@ -9,12 +9,12 @@ export default function Header() {
     <header className={style.header}>
       <div className={style.headerContainer}>
         <HeaderMenu />
+        <div className={style.logoContainer}>
         <LogoLink />
+        </div>
         <div className={style.userContainer}>
-          <div className={style.userInteractive}>
           <ProfileButton />
           <BasketCounter />
-          </div>
         </div>
       </div>
     </header>

@@ -4,7 +4,9 @@ import style from './LoginPage.module.css';
 export default function LoginPage() {
   return (
     <section className={style.login}>
-      <Login />
+      <div className={style.containerLogin}>
+        <Login />
+      </div>
     </section>
   );
 }

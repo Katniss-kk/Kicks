@@ -46,3 +46,17 @@
   background-color: var(--bg-buttonDisable);
   color: var(--color-buttonDisable);
 }
+
+@media(width >= 1280px) {
+  .orderContainer {
+    background-color: transparent;
+  }
+
+  .title {
+    font-size: 32px;
+  }
+
+  .span {
+    font-size: 20px;
+  }
+}

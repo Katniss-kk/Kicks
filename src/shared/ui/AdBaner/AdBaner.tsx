@@ -17,11 +17,11 @@ export default function AdBaner() {
             <div className={style.mainTextContainer}>
               <h2 className={style.brandName}>{TextBanner.brand}</h2>
               <p className={style.aboutBrand}>{TextBanner.about}</p>
-              <LinkCatalog title={TextBanner.link} link="/catalog/new" /> 
+              <LinkCatalog title={TextBanner.link} link="/catalog/new" />
             </div>
             <div className={style.secondImageContainer}>
-              <img src={ImgBanner[1].image} alt={ImgBanner[1].alt} />
-              <img src={ImgBanner[2].image} alt={ImgBanner[2].alt} />
+              <img src={ImgBanner[1].image} alt={ImgBanner[1].alt} className={style.secondImg} />
+              <img src={ImgBanner[2].image} alt={ImgBanner[2].alt} className={style.secondImg} />
             </div>
           </div>
         </div>

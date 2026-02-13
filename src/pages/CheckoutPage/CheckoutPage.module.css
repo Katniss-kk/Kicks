@@ -5,3 +5,24 @@
   padding-inline: 16px;
   background-color: var(--color-text);
 }
+
+.checkoutContainer {
+  display: grid;
+  gap: 24px;
+}
+
+@media(width >=1280px) {
+  .checkout {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 47px;
+    padding-inline: 72px;
+  }
+
+  .checkoutContainer {
+    grid-column: 2;
+  }
+
+  .contactsContainer {
+    grid-row: 1;
+  }
+}
