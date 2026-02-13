@@ -8,7 +8,7 @@ import { useClickOutside } from '@/libs/useClickOutside';
 
 export default function HeaderMenu() {
   const { onCloseModal, modal, isDesktop } = useHeaderMenu();
-  console.log(isDesktop);
+
   return (
     <div className={style.headerMenuContainer}>
       {isDesktop ? (
