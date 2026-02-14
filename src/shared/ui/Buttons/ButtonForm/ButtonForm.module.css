@@ -4,9 +4,10 @@
   justify-content: space-between;
   align-items: center;
   border: none;
+  border-radius: 8px;
   inline-size: 100%;
   padding-inline: 16px;
-  min-block-size: 48px;
+  block-size: 48px;
   background-color: var(--color-secondText);
   font-family: var(--font-text);
   font-weight: var(--font-weightMedium);

@@ -1,73 +1,100 @@
-# React + TypeScript + Vite
+# 👟 KICKS — интернет-магазин кроссовок
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**🔗 Демо:** [https://katniss-kk.github.io/Kicks/#/](https://katniss-kk.github.io/Kicks/#/)
 
-Currently, two official plugins are available:
+[![React](https://img.shields.io/badge/React-19.2.0-61DAFB?logo=react)](https://reactjs.org/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.9.3-3178C6?logo=typescript)](https://www.typescriptlang.org/)
+[![Redux](https://img.shields.io/badge/Redux-2.11.2-764ABC?logo=redux)](https://redux.js.org/)
+[![Vite](https://img.shields.io/badge/Vite-7.2.4-646CFF?logo=vite)](https://vitejs.dev/)
+[![Storybook](https://img.shields.io/badge/Storybook-10.2.3-FF4785?logo=storybook)](https://storybook.js.org/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📸 Скриншоты
 
-## React Compiler
+| Главная | Каталог | Карточка товара | Корзина |
+|---------|---------|------------------|---------|
+| ![Главная](image-8.png) | ![Каталог](image-9.png) | ![Карточка](image-10.png) | ![Корзина](image-11.png) |
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+| Авторизация | Регистрация | Оформление заказа | Мобильная версия |
+|-------------|-------------|--------------------|-------------------|
+| ![Авторизация](image-17.png) | ![Регистрация](image-18.png) | ![Оформление](image-14.png) | ![Мобильная](image-15.png) |
 
-## Expanding the ESLint configuration
+![Мобильная версия каталога](image-16.png)
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+**KICKS** — это полноценный интернет-магазин кроссовок с корзиной, фильтрацией и авторизацией. Проект разработан на чистом фронтенде с имитацией бэкенда через LocalStorage.
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+---
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+## ✨ Функциональность
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+- ✅ **Авторизация и регистрация** пользователей (данные хранятся в LocalStorage)
+- ✅ **Каталог товаров** с пагинацией (React Paginate)
+- ✅ **Фильтрация** по брендам, размерам и категориям
+- ✅ **Детальная страница** каждого товара с галереей (Swiper)
+- ✅ **Корзина** с добавлением/удалением товаров
+- ✅ **Оформление заказа** с формой доставки
+- ✅ **Адаптивная верстка** от 390px до 1440px
+- ✅ **Сохранение состояния** корзины и авторизации в LocalStorage
+- ✅ **Storybook** для изоляции и тестирования UI-компонентов
+
+---
+
+## 🛠 Стек технологий
+
+| Категория | Технологии |
+|-----------|------------|
+| **Язык** | TypeScript 5.9.3 |
+| **Фреймворк** | React 19.2.0 |
+| **Сборщик** | Vite 7.2.4 |
+| **Роутинг** | React Router 5.3.3 |
+| **Стейт-менеджмент** | Redux 2.11.2 |
+| **Стилизация** | CLSX 2.1.1 (CSS-модули) |
+| **UI-кит** | StoryBook 10.2.3 |
+| **Слайдер** | Swiper 12.1.10 |
+| **Пагинация** | React Paginate 8.2.0 |
+| **Линтер** | ESLint 3.39.2 |
+| **Форматтер** | Prettier 3.8.1 |
+
+---
+
+
+
+## 🚀 Установка и запуск
+
+
+
+``` bash
+# Клонировать репозиторий
+git clone https://github.com/katniss-kk/Kicks.git
+
+# Перейти в папку проекта
+cd Kicks
+
+# Установить зависимости
+npm install
+
+# Запустить проект
+npm run dev
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## 📂 Структура проекта
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+src/
+├── api/ # API запросы
+├── app/ # Инициализация приложения
+├── assets/ # Картинки, шрифты, иконки
+├── entities/ # Бизнес-сущности (product, user, cart)
+├── features/ # Функциональные модули (auth, filters, order)
+├── layout/ # Хедер, футер, обертки
+├── libs/ # Хелперы, константы, хуки
+├── pages/ # Страницы
+├── services/ # Redux store, слайсы
+├── shared/ # Переиспользуемые UI-компоненты
+├── stories/ # Storybook истории
+├── types/ # TypeScript типы
+└── widgets/ # Самостоятельные блоки (карточки, фильтры)
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+## 🔮 Планы по доработке
+
+- [ ] **Поиск** — добавить поиск по товарам
+- [ ] **Тесты** — написать unit-тесты (Jest)
+- [ ] **Запросы** — переписать получения данных на TaskQuery
